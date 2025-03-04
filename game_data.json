@@ -1,2 +1,114 @@
 [
-    
+  {
+    "timestamp": "2025-03-03 18:24:32",
+    "game_type": "",
+    "blinds": [
+      "0.10",
+      "0.20"
+    ],
+    "dealer_position": "5",
+    "pot_size": "0.00",
+    "community_cards": [
+      "7 of Diamonds",
+      "7 of Spades",
+      "Ace of Spades",
+      "10 of Spades"
+    ],
+    "stage": "turn",
+    "players": [
+      {
+        "name": "olgaCarlman",
+        "stack": "12.18",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "6 of Diamonds",
+          "Queen of Clubs"
+        ],
+        "hand_message": "PAIR (7)"
+      },
+      {
+        "name": "villain",
+        "stack": "25.32",
+        "bet": "",
+        "status": "PlayerState.FOLDED",
+        "cards": [
+          "Unknown Card",
+          "Unknown Card"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "type": "raise",
+        "player": "villain",
+        "amount": 0.4,
+        "total_bet": "0.50",
+        "timestamp": "2025-03-03 18:24:12"
+      },
+      {
+        "type": "raise",
+        "player": "olgaCarlman",
+        "amount": 0.3,
+        "total_bet": "0.50",
+        "timestamp": "2025-03-03 18:24:15"
+      },
+      {
+        "type": "flop",
+        "cards": [
+          "7 of Diamonds",
+          "7 of Spades",
+          "Ace of Spades"
+        ],
+        "timestamp": "2025-03-03 18:24:17"
+      },
+      {
+        "type": "bet",
+        "player": "villain",
+        "amount": 0.75,
+        "total_bet": "0.75",
+        "timestamp": "2025-03-03 18:24:22"
+      },
+      {
+        "type": "bet",
+        "player": "olgaCarlman",
+        "amount": 0.75,
+        "total_bet": "0.75",
+        "timestamp": "2025-03-03 18:24:25"
+      },
+      {
+        "type": "turn",
+        "card": "10 of Spades",
+        "timestamp": "2025-03-03 18:24:27"
+      },
+      {
+        "type": "bet",
+        "player": "olgaCarlman",
+        "amount": 1.87,
+        "total_bet": "1.87",
+        "timestamp": "2025-03-03 18:24:30"
+      },
+      {
+        "type": "fold",
+        "player": "villain",
+        "timestamp": "2025-03-03 18:24:32"
+      },
+      {
+        "type": "win",
+        "player": "olgaCarlman",
+        "stack_info": "12.18 (+2.50)",
+        "timestamp": "2025-03-03 18:24:32"
+      },
+      {
+        "type": "hand_complete",
+        "timestamp": "2025-03-03 18:24:32"
+      }
+    ],
+    "winners": [
+      {
+        "name": "olgaCarlman",
+        "stack_info": "12.18 (+2.50)"
+      }
+    ]
+  }
+]
