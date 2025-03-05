@@ -1,10 +1,12 @@
 import json
 import time
 import os
+import csv
 from selenium import webdriver
 from PokerNow import PokerClient
 
 DATA_FILE = "game_data.json"
+CSV_FILE = "game_data.csv"
 
 driver = webdriver.Chrome()
 client = PokerClient(driver, cookie_path='cookie_file.pkl')
@@ -25,17 +27,6 @@ last_hand_data = None
 hand_actions = []
 last_hand_id = None
 last_saved_actions = []
-
-def get_hand_id(hand_data):
-    """Generate a unique ID for a hand based on timestamp and dealer position"""
-    # Use the first action's timestamp if available (usually the new_hand action)
-    if 'actions' in hand_data and hand_data['actions']:
-        for action in hand_data['actions']:
-            if action['type'] == 'new_hand':
-                return f"{action['timestamp']}_{action['dealer']}"
-    
-    # Fallback to the hand's timestamp and dealer position
-    return f"{hand_data['timestamp']}_{hand_data['dealer_position']}"
 
 def extract_game_data():
     """ Extracts relevant poker data using the PokerNow API. """
@@ -78,7 +69,6 @@ def extract_game_data():
             winners.append(winner_data)
 
     return {
-        "timestamp": time.strftime("%Y-%m-%d %H:%M:%S"),
         "game_type": game_state.game_type if hasattr(game_state, 'game_type') else "",
         "pot_size": game_state.pot_size,
         "community_cards": community_cards,
@@ -105,7 +95,6 @@ def extract_compact_hand_data(current_data, actions):
     
     # Create a compact hand record
     return {
-        "timestamp": current_data["timestamp"],
         "game_type": current_data["game_type"],
         "blinds": current_data["blinds"],
         "dealer_position": current_data["dealer_position"],
@@ -124,8 +113,7 @@ def detect_new_actions(current_state, previous_state):
     # If no previous state, this is the start of tracking
     if not previous_state:
         return [{
-            "type": "tracking_started",
-            "timestamp": time.strftime("%Y-%m-%d %H:%M:%S")
+            "type": "tracking_started"
         }]
     
     # Check if the dealer position changed (new hand)
@@ -133,8 +121,7 @@ def detect_new_actions(current_state, previous_state):
         actions.append({
             "type": "new_hand",
             "dealer": current_state.get("dealer_position"),
-            "blinds": current_state.get("blinds"),
-            "timestamp": time.strftime("%Y-%m-%d %H:%M:%S")
+            "blinds": current_state.get("blinds")
         })
     
     # Check for new community cards
@@ -148,20 +135,17 @@ def detect_new_actions(current_state, previous_state):
         if len(current_cards) == 3:
             actions.append({
                 "type": "flop",
-                "cards": current_cards,
-                "timestamp": time.strftime("%Y-%m-%d %H:%M:%S")
+                "cards": current_cards
             })
         elif len(current_cards) == 4:
             actions.append({
                 "type": "turn",
-                "card": current_cards[3],
-                "timestamp": time.strftime("%Y-%m-%d %H:%M:%S")
+                "card": current_cards[3]
             })
         elif len(current_cards) == 5:
             actions.append({
                 "type": "river",
-                "card": current_cards[4],
-                "timestamp": time.strftime("%Y-%m-%d %H:%M:%S")
+                "card": current_cards[4]
             })
     
     # Check for player actions by comparing bets and statuses
@@ -176,8 +160,7 @@ def detect_new_actions(current_state, previous_state):
             if prev_player["status"] != "PlayerState.FOLDED" and current_player["status"] == "PlayerState.FOLDED":
                 actions.append({
                     "type": "fold",
-                    "player": name,
-                    "timestamp": time.strftime("%Y-%m-%d %H:%M:%S")
+                    "player": name
                 })
             
             # Check for bet/raise/call
@@ -192,8 +175,7 @@ def detect_new_actions(current_state, previous_state):
                     "type": action_type,
                     "player": name,
                     "amount": float(current_player["bet"] if current_player["bet"] else '0') - float(prev_player["bet"] if prev_player["bet"] else '0'),
-                    "total_bet": current_player["bet"],
-                    "timestamp": time.strftime("%Y-%m-%d %H:%M:%S")
+                    "total_bet": current_player["bet"]
                 })
             
             # Check for check (bet remains 0)
@@ -201,8 +183,7 @@ def detect_new_actions(current_state, previous_state):
                 # Only register check if it's no longer this player's turn
                 actions.append({
                     "type": "check",
-                    "player": name,
-                    "timestamp": time.strftime("%Y-%m-%d %H:%M:%S")
+                    "player": name
                 })
     
     # Check for winners (hand completion)
@@ -211,8 +192,7 @@ def detect_new_actions(current_state, previous_state):
             actions.append({
                 "type": "win",
                 "player": winner["name"],
-                "stack_info": winner["stack_info"],
-                "timestamp": time.strftime("%Y-%m-%d %H:%M:%S")
+                "stack_info": winner["stack_info"]
             })
     
     return actions
@@ -243,28 +223,50 @@ def save_hand_data(hand_data):
     
     return True
 
-def is_hand_complete(game_state):
-    """ Determines if the hand is complete based on game state. """
-    # Check if there are winners
-    if hasattr(game_state, 'winners') and game_state.winners:
-        return True
+def convert_json_to_csv():
+    """ Converts the JSON file to CSV format. """
+    # Load JSON data
+    try:
+        with open(DATA_FILE, 'r') as f:
+            hands_data = json.load(f)
+    except FileNotFoundError:
+        print(f"No {DATA_FILE} found to convert.")
+        return
+    except json.JSONDecodeError:
+        print(f"Error decoding {DATA_FILE}.")
+        return
     
-    # Check if all community cards are dealt (showdown)
-    if len(game_state.community_cards) == 5:
-        # Ensure betting is complete
-        active_players = [p for p in game_state.players if p.status != 'FOLDED']
-        if len(active_players) > 1:
-            # Check if all active players have the same bet amount (betting round complete)
-            bet_amounts = set(p.bet_value for p in active_players)
-            if len(bet_amounts) == 1:
-                return True
+    # Prepare CSV columns
+    csv_columns = [
+        'game_type', 'blinds', 'dealer_position', 'pot_size', 'stage', 
+        'community_cards', 'winners_names', 'winners_stack_info'
+    ]
     
-    # Check if only one player remains active
-    active_players = [p for p in game_state.players if p.status != 'FOLDED']
-    if len(active_players) <= 1:
-        return True
+    # Open CSV file for writing
+    with open(CSV_FILE, 'w', newline='') as csvfile:
+        writer = csv.DictWriter(csvfile, fieldnames=csv_columns)
+        
+        # Write header
+        writer.writeheader()
+        
+        # Process each hand
+        for hand in hands_data:
+            # Prepare row data
+            row = {
+                'game_type': hand.get('game_type', ''),
+                'blinds': hand.get('blinds', ''),
+                'dealer_position': hand.get('dealer_position', ''),
+                'pot_size': hand.get('pot_size', ''),
+                'stage': hand.get('stage', ''),
+                'community_cards': ', '.join(hand.get('community_cards', [])),
+                'winners_names': ', '.join([w['name'] for w in hand.get('winners', [])]),
+                'winners_stack_info': ', '.join([str(w['stack_info']) for w in hand.get('winners', [])])
+            }
+            
+            # Write row
+            writer.writerow(row)
     
-    return False
+    print(f"Converted {DATA_FILE} to {CSV_FILE}")
 
 def process_game_state():
     """ Processes the current game state, tracking actions and checking for hand completion. """
@@ -289,7 +291,7 @@ def process_game_state():
     if new_hand_action and last_hand_id is None:
         # This is a new hand starting
         print("New hand detected")
-        last_hand_id = f"{new_hand_action.get('timestamp')}_{new_hand_action.get('dealer')}"
+        last_hand_id = f"{new_hand_action.get('dealer')}"
     
     # Check if we have a winner (hand completed)
     has_winner = len(current_data.get("winners", [])) > 0
@@ -299,8 +301,7 @@ def process_game_state():
         # Add hand completion status if not already present
         if not any(a.get("type") == "hand_complete" for a in hand_actions):
             hand_actions.append({
-                "type": "hand_complete",
-                "timestamp": time.strftime("%Y-%m-%d %H:%M:%S")
+                "type": "hand_complete"
             })
         
         # Create compact version of the complete hand
@@ -316,11 +317,10 @@ def process_game_state():
             except json.JSONDecodeError:
                 all_hands = []
         
-        # Simple check to avoid duplicates based on timestamp and dealer position
+        # Simple check to avoid duplicates based on dealer position
         for existing_hand in all_hands:
             # Check if this specific hand is already saved
-            if (existing_hand.get("timestamp") == compact_hand.get("timestamp") and
-                existing_hand.get("dealer_position") == compact_hand.get("dealer_position") and
+            if (existing_hand.get("dealer_position") == compact_hand.get("dealer_position") and
                 len(existing_hand.get("winners", [])) > 0):
                 
                 should_save = False
@@ -353,12 +353,14 @@ finally:
         # Make sure we have the hand completion marker
         if not any(a.get("type") == "hand_complete" for a in hand_actions):
             hand_actions.append({
-                "type": "hand_complete",
-                "timestamp": time.strftime("%Y-%m-%d %H:%M:%S")
+                "type": "hand_complete"
             })
         
         compact_hand = extract_compact_hand_data(last_hand_data, hand_actions)
         save_hand_data(compact_hand)
         print("Final hand data saved before exit.")
+    
+    # Convert JSON to CSV
+    convert_json_to_csv()
     
     driver.quit()
