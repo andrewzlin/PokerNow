@@ -15,7 +15,7 @@ input("Complete the login process in the browser, then press enter to continue..
 client.cookie_manager.save_cookies()
 
 # Navigate to the game table (replace with your specific game URL)
-client.navigate('https://www.pokernow.club/games/pglHGhHrE341ZAczr_huXCuVb')
+client.navigate('https://www.pokernow.club/games/pglR_4hi883MBgE5gu9XB2c-U')
 time.sleep(5)
 
 print("Tracking game state using PokerNow API... Press Ctrl+C to stop.")

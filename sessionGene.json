@@ -1,0 +1,4936 @@
+[
+  {
+    "timestamp": "2025-03-03 23:19:13",
+    "game_type": "",
+    "blinds": [
+      "0.02",
+      "0.05"
+    ],
+    "dealer_position": "1",
+    "pot_size": "0.00",
+    "community_cards": [
+      "9 of Hearts",
+      "8 of Clubs",
+      "6 of Clubs",
+      "King of Spades",
+      "3 of Spades"
+    ],
+    "stage": "river",
+    "players": [
+      {
+        "name": "olga carlman",
+        "stack": "3.80",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "Ace of Clubs",
+          "King of Clubs"
+        ],
+        "hand_message": "PAIR (K)"
+      },
+      {
+        "name": "imma bitch you",
+        "stack": "3.80",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "10 of Clubs",
+          "9 of Clubs"
+        ],
+        "hand_message": "PAIR (9)"
+      }
+    ],
+    "actions": [
+      {
+        "type": "new_hand",
+        "dealer": "1",
+        "blinds": [
+          "0.02",
+          "0.05"
+        ],
+        "timestamp": "2025-03-03 23:18:37"
+      },
+      {
+        "type": "bet",
+        "player": "olga carlman",
+        "amount": 0.02,
+        "total_bet": "0.02",
+        "timestamp": "2025-03-03 23:18:37"
+      },
+      {
+        "type": "bet",
+        "player": "imma bitch you",
+        "amount": 0.05,
+        "total_bet": "0.05",
+        "timestamp": "2025-03-03 23:18:37"
+      },
+      {
+        "type": "raise",
+        "player": "olga carlman",
+        "amount": 0.09999999999999999,
+        "total_bet": "0.12",
+        "timestamp": "2025-03-03 23:18:42"
+      },
+      {
+        "type": "flop",
+        "cards": [
+          "9 of Hearts",
+          "8 of Clubs",
+          "6 of Clubs"
+        ],
+        "timestamp": "2025-03-03 23:18:45"
+      },
+      {
+        "type": "bet",
+        "player": "olga carlman",
+        "amount": 0.18,
+        "total_bet": "0.18",
+        "timestamp": "2025-03-03 23:18:50"
+      },
+      {
+        "type": "bet",
+        "player": "imma bitch you",
+        "amount": 0.48,
+        "total_bet": "0.48",
+        "timestamp": "2025-03-03 23:18:55"
+      },
+      {
+        "type": "turn",
+        "card": "King of Spades",
+        "timestamp": "2025-03-03 23:18:58"
+      },
+      {
+        "type": "river",
+        "card": "3 of Spades",
+        "timestamp": "2025-03-03 23:19:03"
+      },
+      {
+        "type": "bet",
+        "player": "imma bitch you",
+        "amount": 0.6,
+        "total_bet": "0.60",
+        "timestamp": "2025-03-03 23:19:08"
+      },
+      {
+        "type": "bet",
+        "player": "olga carlman",
+        "amount": 0.6,
+        "total_bet": "0.60",
+        "timestamp": "2025-03-03 23:19:10"
+      },
+      {
+        "type": "win",
+        "player": "olga carlman",
+        "stack_info": "3.80 (+2.40)",
+        "timestamp": "2025-03-03 23:19:13"
+      },
+      {
+        "type": "hand_complete",
+        "timestamp": "2025-03-03 23:19:13"
+      }
+    ],
+    "winners": [
+      {
+        "name": "olga carlman",
+        "stack_info": "3.80 (+2.40)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-03 23:19:15",
+    "game_type": "",
+    "blinds": [
+      "0.02",
+      "0.05"
+    ],
+    "dealer_position": "1",
+    "pot_size": "0.00",
+    "community_cards": [
+      "9 of Hearts",
+      "8 of Clubs",
+      "6 of Clubs",
+      "King of Spades",
+      "3 of Spades"
+    ],
+    "stage": "river",
+    "players": [
+      {
+        "name": "olga carlman",
+        "stack": "3.80",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "Ace of Clubs",
+          "King of Clubs"
+        ],
+        "hand_message": "PAIR (K)"
+      },
+      {
+        "name": "imma bitch you",
+        "stack": "3.80",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "10 of Clubs",
+          "9 of Clubs"
+        ],
+        "hand_message": "PAIR (9)"
+      }
+    ],
+    "actions": [
+      {
+        "type": "hand_complete",
+        "timestamp": "2025-03-03 23:19:15"
+      }
+    ],
+    "winners": [
+      {
+        "name": "olga carlman",
+        "stack_info": "3.80 (+2.40)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-03 23:19:20",
+    "game_type": "",
+    "blinds": [
+      "0.02",
+      "0.05"
+    ],
+    "dealer_position": "7",
+    "pot_size": "0.00",
+    "community_cards": [],
+    "stage": "preflop",
+    "players": [
+      {
+        "name": "olga carlman",
+        "stack": "6.18",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "8 of Hearts",
+          "Ace of Diamonds"
+        ]
+      },
+      {
+        "name": "imma bitch you",
+        "stack": "3.78",
+        "bet": "",
+        "status": "PlayerState.FOLDED",
+        "cards": [
+          "Unknown Card",
+          "Unknown Card"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "type": "new_hand",
+        "dealer": "7",
+        "blinds": [
+          "0.02",
+          "0.05"
+        ],
+        "timestamp": "2025-03-03 23:19:18"
+      },
+      {
+        "type": "bet",
+        "player": "olga carlman",
+        "amount": 0.05,
+        "total_bet": "0.05",
+        "timestamp": "2025-03-03 23:19:18"
+      },
+      {
+        "type": "bet",
+        "player": "imma bitch you",
+        "amount": 0.02,
+        "total_bet": "0.02",
+        "timestamp": "2025-03-03 23:19:18"
+      },
+      {
+        "type": "fold",
+        "player": "imma bitch you",
+        "timestamp": "2025-03-03 23:19:20"
+      },
+      {
+        "type": "win",
+        "player": "olga carlman",
+        "stack_info": "6.18 (+0.04)",
+        "timestamp": "2025-03-03 23:19:20"
+      },
+      {
+        "type": "hand_complete",
+        "timestamp": "2025-03-03 23:19:20"
+      }
+    ],
+    "winners": [
+      {
+        "name": "olga carlman",
+        "stack_info": "6.18 (+0.04)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-03 23:19:33",
+    "game_type": "",
+    "blinds": [
+      "0.02",
+      "0.05"
+    ],
+    "dealer_position": "1",
+    "pot_size": "0.00",
+    "community_cards": [],
+    "stage": "preflop",
+    "players": [
+      {
+        "name": "olga carlman",
+        "stack": "6.17",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "King of Hearts",
+          "8 of Hearts"
+        ]
+      },
+      {
+        "name": "imma bitch you",
+        "stack": "3.73",
+        "bet": "",
+        "status": "PlayerState.FOLDED",
+        "cards": [
+          "Unknown Card",
+          "Unknown Card"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "type": "new_hand",
+        "dealer": "1",
+        "blinds": [
+          "0.02",
+          "0.05"
+        ],
+        "timestamp": "2025-03-03 23:19:23"
+      },
+      {
+        "type": "bet",
+        "player": "olga carlman",
+        "amount": 0.02,
+        "total_bet": "0.02",
+        "timestamp": "2025-03-03 23:19:23"
+      },
+      {
+        "type": "bet",
+        "player": "imma bitch you",
+        "amount": 0.05,
+        "total_bet": "0.05",
+        "timestamp": "2025-03-03 23:19:23"
+      },
+      {
+        "type": "raise",
+        "player": "olga carlman",
+        "amount": 0.09999999999999999,
+        "total_bet": "0.12",
+        "timestamp": "2025-03-03 23:19:28"
+      },
+      {
+        "type": "fold",
+        "player": "imma bitch you",
+        "timestamp": "2025-03-03 23:19:33"
+      },
+      {
+        "type": "win",
+        "player": "olga carlman",
+        "stack_info": "6.17 (+0.10)",
+        "timestamp": "2025-03-03 23:19:33"
+      },
+      {
+        "type": "hand_complete",
+        "timestamp": "2025-03-03 23:19:33"
+      }
+    ],
+    "winners": [
+      {
+        "name": "olga carlman",
+        "stack_info": "6.17 (+0.10)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-03 23:19:40",
+    "game_type": "",
+    "blinds": [
+      "0.02",
+      "0.05"
+    ],
+    "dealer_position": "7",
+    "pot_size": "0.00",
+    "community_cards": [],
+    "stage": "preflop",
+    "players": [
+      {
+        "name": "olga carlman",
+        "stack": "6.25",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "6 of Spades",
+          "Ace of Spades"
+        ]
+      },
+      {
+        "name": "imma bitch you",
+        "stack": "3.71",
+        "bet": "",
+        "status": "PlayerState.FOLDED",
+        "cards": [
+          "Unknown Card",
+          "Unknown Card"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "type": "new_hand",
+        "dealer": "7",
+        "blinds": [
+          "0.02",
+          "0.05"
+        ],
+        "timestamp": "2025-03-03 23:19:35"
+      },
+      {
+        "type": "bet",
+        "player": "olga carlman",
+        "amount": 0.05,
+        "total_bet": "0.05",
+        "timestamp": "2025-03-03 23:19:35"
+      },
+      {
+        "type": "bet",
+        "player": "imma bitch you",
+        "amount": 0.02,
+        "total_bet": "0.02",
+        "timestamp": "2025-03-03 23:19:35"
+      },
+      {
+        "type": "fold",
+        "player": "imma bitch you",
+        "timestamp": "2025-03-03 23:19:40"
+      },
+      {
+        "type": "win",
+        "player": "olga carlman",
+        "stack_info": "6.25 (+0.04)",
+        "timestamp": "2025-03-03 23:19:40"
+      },
+      {
+        "type": "hand_complete",
+        "timestamp": "2025-03-03 23:19:40"
+      }
+    ],
+    "winners": [
+      {
+        "name": "olga carlman",
+        "stack_info": "6.25 (+0.04)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-03 23:20:06",
+    "game_type": "",
+    "blinds": [
+      "0.02",
+      "0.05"
+    ],
+    "dealer_position": "1",
+    "pot_size": "0.00",
+    "community_cards": [
+      "4 of Diamonds",
+      "2 of Hearts",
+      "10 of Diamonds",
+      "Jack of Clubs",
+      "Ace of Hearts"
+    ],
+    "stage": "river",
+    "players": [
+      {
+        "name": "olga carlman",
+        "stack": "6.09",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "4 of Hearts",
+          "7 of Hearts"
+        ],
+        "hand_message": "PAIR (4)"
+      },
+      {
+        "name": "imma bitch you",
+        "stack": "3.51",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "Queen of Spades",
+          "4 of Spades"
+        ],
+        "hand_message": "PAIR (4)"
+      }
+    ],
+    "actions": [
+      {
+        "type": "new_hand",
+        "dealer": "1",
+        "blinds": [
+          "0.02",
+          "0.05"
+        ],
+        "timestamp": "2025-03-03 23:19:43"
+      },
+      {
+        "type": "bet",
+        "player": "olga carlman",
+        "amount": 0.02,
+        "total_bet": "0.02",
+        "timestamp": "2025-03-03 23:19:43"
+      },
+      {
+        "type": "bet",
+        "player": "imma bitch you",
+        "amount": 0.05,
+        "total_bet": "0.05",
+        "timestamp": "2025-03-03 23:19:43"
+      },
+      {
+        "type": "raise",
+        "player": "olga carlman",
+        "amount": 0.030000000000000002,
+        "total_bet": "0.05",
+        "timestamp": "2025-03-03 23:19:45"
+      },
+      {
+        "type": "flop",
+        "cards": [
+          "4 of Diamonds",
+          "2 of Hearts",
+          "10 of Diamonds"
+        ],
+        "timestamp": "2025-03-03 23:19:48"
+      },
+      {
+        "type": "bet",
+        "player": "imma bitch you",
+        "amount": 0.05,
+        "total_bet": "0.05",
+        "timestamp": "2025-03-03 23:19:51"
+      },
+      {
+        "type": "turn",
+        "card": "Jack of Clubs",
+        "timestamp": "2025-03-03 23:19:53"
+      },
+      {
+        "type": "bet",
+        "player": "olga carlman",
+        "amount": 0.1,
+        "total_bet": "0.10",
+        "timestamp": "2025-03-03 23:20:01"
+      },
+      {
+        "type": "bet",
+        "player": "imma bitch you",
+        "amount": 0.1,
+        "total_bet": "0.10",
+        "timestamp": "2025-03-03 23:20:01"
+      },
+      {
+        "type": "river",
+        "card": "Ace of Hearts",
+        "timestamp": "2025-03-03 23:20:03"
+      },
+      {
+        "type": "win",
+        "player": "imma bitch you",
+        "stack_info": "3.51 (+0.40)",
+        "timestamp": "2025-03-03 23:20:06"
+      },
+      {
+        "type": "hand_complete",
+        "timestamp": "2025-03-03 23:20:06"
+      }
+    ],
+    "winners": [
+      {
+        "name": "imma bitch you",
+        "stack_info": "3.51 (+0.40)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-03 23:20:08",
+    "game_type": "",
+    "blinds": [
+      "0.02",
+      "0.05"
+    ],
+    "dealer_position": "1",
+    "pot_size": "0.00",
+    "community_cards": [
+      "4 of Diamonds",
+      "2 of Hearts",
+      "10 of Diamonds",
+      "Jack of Clubs",
+      "Ace of Hearts"
+    ],
+    "stage": "river",
+    "players": [
+      {
+        "name": "olga carlman",
+        "stack": "6.09",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "4 of Hearts",
+          "7 of Hearts"
+        ],
+        "hand_message": "PAIR (4)"
+      },
+      {
+        "name": "imma bitch you",
+        "stack": "3.51",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "Queen of Spades",
+          "4 of Spades"
+        ],
+        "hand_message": "PAIR (4)"
+      }
+    ],
+    "actions": [
+      {
+        "type": "hand_complete",
+        "timestamp": "2025-03-03 23:20:08"
+      }
+    ],
+    "winners": [
+      {
+        "name": "imma bitch you",
+        "stack_info": "3.51 (+0.40)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-03 23:20:13",
+    "game_type": "",
+    "blinds": [
+      "0.02",
+      "0.05"
+    ],
+    "dealer_position": "7",
+    "pot_size": "0.00",
+    "community_cards": [],
+    "stage": "preflop",
+    "players": [
+      {
+        "name": "olga carlman",
+        "stack": "6.07",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "9 of Spades",
+          "7 of Diamonds"
+        ]
+      },
+      {
+        "name": "imma bitch you",
+        "stack": "3.89",
+        "bet": "",
+        "status": "PlayerState.FOLDED",
+        "cards": [
+          "Unknown Card",
+          "Unknown Card"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "type": "new_hand",
+        "dealer": "7",
+        "blinds": [
+          "0.02",
+          "0.05"
+        ],
+        "timestamp": "2025-03-03 23:20:11"
+      },
+      {
+        "type": "bet",
+        "player": "imma bitch you",
+        "amount": 0.02,
+        "total_bet": "0.02",
+        "timestamp": "2025-03-03 23:20:11"
+      },
+      {
+        "type": "fold",
+        "player": "imma bitch you",
+        "timestamp": "2025-03-03 23:20:13"
+      },
+      {
+        "type": "win",
+        "player": "olga carlman",
+        "stack_info": "6.07 (+0.04)",
+        "timestamp": "2025-03-03 23:20:13"
+      },
+      {
+        "type": "hand_complete",
+        "timestamp": "2025-03-03 23:20:13"
+      }
+    ],
+    "winners": [
+      {
+        "name": "olga carlman",
+        "stack_info": "6.07 (+0.04)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-03 23:20:49",
+    "game_type": "",
+    "blinds": [
+      "0.02",
+      "0.05"
+    ],
+    "dealer_position": "1",
+    "pot_size": "0.00",
+    "community_cards": [
+      "3 of Clubs",
+      "6 of Clubs",
+      "Queen of Diamonds",
+      "King of Hearts",
+      "King of Clubs"
+    ],
+    "stage": "river",
+    "players": [
+      {
+        "name": "olga carlman",
+        "stack": "6.01",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "Queen of Hearts",
+          "6 of Diamonds"
+        ],
+        "hand_message": "TWO PAIR (K,Q)"
+      },
+      {
+        "name": "imma bitch you",
+        "stack": "3.79",
+        "bet": "",
+        "status": "PlayerState.FOLDED",
+        "cards": [
+          "Unknown Card",
+          "Unknown Card"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "type": "new_hand",
+        "dealer": "1",
+        "blinds": [
+          "0.02",
+          "0.05"
+        ],
+        "timestamp": "2025-03-03 23:20:16"
+      },
+      {
+        "type": "bet",
+        "player": "olga carlman",
+        "amount": 0.02,
+        "total_bet": "0.02",
+        "timestamp": "2025-03-03 23:20:16"
+      },
+      {
+        "type": "bet",
+        "player": "imma bitch you",
+        "amount": 0.05,
+        "total_bet": "0.05",
+        "timestamp": "2025-03-03 23:20:16"
+      },
+      {
+        "type": "raise",
+        "player": "olga carlman",
+        "amount": 0.030000000000000002,
+        "total_bet": "0.05",
+        "timestamp": "2025-03-03 23:20:19"
+      },
+      {
+        "type": "flop",
+        "cards": [
+          "3 of Clubs",
+          "6 of Clubs",
+          "Queen of Diamonds"
+        ],
+        "timestamp": "2025-03-03 23:20:24"
+      },
+      {
+        "type": "turn",
+        "card": "King of Hearts",
+        "timestamp": "2025-03-03 23:20:31"
+      },
+      {
+        "type": "river",
+        "card": "King of Clubs",
+        "timestamp": "2025-03-03 23:20:36"
+      },
+      {
+        "type": "bet",
+        "player": "imma bitch you",
+        "amount": 0.05,
+        "total_bet": "0.05",
+        "timestamp": "2025-03-03 23:20:39"
+      },
+      {
+        "type": "bet",
+        "player": "olga carlman",
+        "amount": 0.15,
+        "total_bet": "0.15",
+        "timestamp": "2025-03-03 23:20:44"
+      },
+      {
+        "type": "fold",
+        "player": "imma bitch you",
+        "timestamp": "2025-03-03 23:20:49"
+      },
+      {
+        "type": "win",
+        "player": "olga carlman",
+        "stack_info": "6.01 (+0.20)",
+        "timestamp": "2025-03-03 23:20:49"
+      },
+      {
+        "type": "hand_complete",
+        "timestamp": "2025-03-03 23:20:49"
+      }
+    ],
+    "winners": [
+      {
+        "name": "olga carlman",
+        "stack_info": "6.01 (+0.20)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-03 23:20:59",
+    "game_type": "",
+    "blinds": [
+      "0.02",
+      "0.05"
+    ],
+    "dealer_position": "7",
+    "pot_size": "0.00",
+    "community_cards": [],
+    "stage": "preflop",
+    "players": [
+      {
+        "name": "olga carlman",
+        "stack": "6.16",
+        "bet": "",
+        "status": "PlayerState.FOLDED",
+        "cards": [
+          "King of Clubs",
+          "6 of Diamonds"
+        ]
+      },
+      {
+        "name": "imma bitch you",
+        "stack": "3.74",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "Unknown Card",
+          "Unknown Card"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "type": "new_hand",
+        "dealer": "7",
+        "blinds": [
+          "0.02",
+          "0.05"
+        ],
+        "timestamp": "2025-03-03 23:20:51"
+      },
+      {
+        "type": "bet",
+        "player": "olga carlman",
+        "amount": 0.05,
+        "total_bet": "0.05",
+        "timestamp": "2025-03-03 23:20:51"
+      },
+      {
+        "type": "bet",
+        "player": "imma bitch you",
+        "amount": 0.02,
+        "total_bet": "0.02",
+        "timestamp": "2025-03-03 23:20:51"
+      },
+      {
+        "type": "raise",
+        "player": "imma bitch you",
+        "amount": 0.13,
+        "total_bet": "0.15",
+        "timestamp": "2025-03-03 23:20:54"
+      },
+      {
+        "type": "fold",
+        "player": "olga carlman",
+        "timestamp": "2025-03-03 23:20:59"
+      },
+      {
+        "type": "win",
+        "player": "imma bitch you",
+        "stack_info": "3.74 (+0.10)",
+        "timestamp": "2025-03-03 23:20:59"
+      },
+      {
+        "type": "hand_complete",
+        "timestamp": "2025-03-03 23:20:59"
+      }
+    ],
+    "winners": [
+      {
+        "name": "imma bitch you",
+        "stack_info": "3.74 (+0.10)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-03 23:21:32",
+    "game_type": "",
+    "blinds": [
+      "0.02",
+      "0.05"
+    ],
+    "dealer_position": "1",
+    "pot_size": "0.00",
+    "community_cards": [
+      "7 of Spades",
+      "10 of Clubs",
+      "King of Spades",
+      "Ace of Spades",
+      "2 of Spades"
+    ],
+    "stage": "river",
+    "players": [
+      {
+        "name": "olga carlman",
+        "stack": "5.32",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "10 of Spades",
+          "Queen of Clubs"
+        ],
+        "hand_message": "FLUSH"
+      },
+      {
+        "name": "imma bitch you",
+        "stack": "3.00",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "Unknown Card",
+          "Unknown Card"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "type": "new_hand",
+        "dealer": "1",
+        "blinds": [
+          "0.02",
+          "0.05"
+        ],
+        "timestamp": "2025-03-03 23:21:02"
+      },
+      {
+        "type": "bet",
+        "player": "olga carlman",
+        "amount": 0.02,
+        "total_bet": "0.02",
+        "timestamp": "2025-03-03 23:21:02"
+      },
+      {
+        "type": "bet",
+        "player": "imma bitch you",
+        "amount": 0.05,
+        "total_bet": "0.05",
+        "timestamp": "2025-03-03 23:21:02"
+      },
+      {
+        "type": "raise",
+        "player": "olga carlman",
+        "amount": 0.030000000000000002,
+        "total_bet": "0.05",
+        "timestamp": "2025-03-03 23:21:04"
+      },
+      {
+        "type": "raise",
+        "player": "imma bitch you",
+        "amount": 0.09999999999999999,
+        "total_bet": "0.15",
+        "timestamp": "2025-03-03 23:21:07"
+      },
+      {
+        "type": "raise",
+        "player": "olga carlman",
+        "amount": 0.32,
+        "total_bet": "0.37",
+        "timestamp": "2025-03-03 23:21:12"
+      },
+      {
+        "type": "raise",
+        "player": "imma bitch you",
+        "amount": 0.22,
+        "total_bet": "0.37",
+        "timestamp": "2025-03-03 23:21:12"
+      },
+      {
+        "type": "flop",
+        "cards": [
+          "7 of Spades",
+          "10 of Clubs",
+          "King of Spades"
+        ],
+        "timestamp": "2025-03-03 23:21:14"
+      },
+      {
+        "type": "turn",
+        "card": "Ace of Spades",
+        "timestamp": "2025-03-03 23:21:19"
+      },
+      {
+        "type": "bet",
+        "player": "olga carlman",
+        "amount": 0.05,
+        "total_bet": "0.05",
+        "timestamp": "2025-03-03 23:21:22"
+      },
+      {
+        "type": "river",
+        "card": "2 of Spades",
+        "timestamp": "2025-03-03 23:21:24"
+      },
+      {
+        "type": "bet",
+        "player": "olga carlman",
+        "amount": 0.42,
+        "total_bet": "0.42",
+        "timestamp": "2025-03-03 23:21:29"
+      },
+      {
+        "type": "win",
+        "player": "olga carlman",
+        "stack_info": "5.32 (+1.68)",
+        "timestamp": "2025-03-03 23:21:32"
+      },
+      {
+        "type": "hand_complete",
+        "timestamp": "2025-03-03 23:21:32"
+      }
+    ],
+    "winners": [
+      {
+        "name": "olga carlman",
+        "stack_info": "5.32 (+1.68)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-03 23:21:34",
+    "game_type": "",
+    "blinds": [
+      "0.02",
+      "0.05"
+    ],
+    "dealer_position": "1",
+    "pot_size": "0.00",
+    "community_cards": [
+      "7 of Spades",
+      "10 of Clubs",
+      "King of Spades",
+      "Ace of Spades",
+      "2 of Spades"
+    ],
+    "stage": "river",
+    "players": [
+      {
+        "name": "olga carlman",
+        "stack": "5.32",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "10 of Spades",
+          "Queen of Clubs"
+        ],
+        "hand_message": "FLUSH"
+      },
+      {
+        "name": "imma bitch you",
+        "stack": "3.00",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "Unknown Card",
+          "Unknown Card"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "type": "hand_complete",
+        "timestamp": "2025-03-03 23:21:34"
+      }
+    ],
+    "winners": [
+      {
+        "name": "olga carlman",
+        "stack_info": "5.32 (+1.68)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-03 23:21:52",
+    "game_type": "",
+    "blinds": [
+      "0.02",
+      "0.05"
+    ],
+    "dealer_position": "7",
+    "pot_size": "0.00",
+    "community_cards": [
+      "Jack of Diamonds",
+      "2 of Diamonds",
+      "2 of Spades"
+    ],
+    "stage": "flop",
+    "players": [
+      {
+        "name": "olga carlman",
+        "stack": "6.85",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "10 of Diamonds",
+          "Jack of Hearts"
+        ],
+        "hand_message": "TWO PAIR (J,2)"
+      },
+      {
+        "name": "imma bitch you",
+        "stack": "2.85",
+        "bet": "",
+        "status": "PlayerState.FOLDED",
+        "cards": [
+          "Unknown Card",
+          "Unknown Card"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "type": "new_hand",
+        "dealer": "7",
+        "blinds": [
+          "0.02",
+          "0.05"
+        ],
+        "timestamp": "2025-03-03 23:21:37"
+      },
+      {
+        "type": "bet",
+        "player": "olga carlman",
+        "amount": 0.05,
+        "total_bet": "0.05",
+        "timestamp": "2025-03-03 23:21:37"
+      },
+      {
+        "type": "bet",
+        "player": "imma bitch you",
+        "amount": 0.02,
+        "total_bet": "0.02",
+        "timestamp": "2025-03-03 23:21:37"
+      },
+      {
+        "type": "raise",
+        "player": "imma bitch you",
+        "amount": 0.13,
+        "total_bet": "0.15",
+        "timestamp": "2025-03-03 23:21:39"
+      },
+      {
+        "type": "raise",
+        "player": "olga carlman",
+        "amount": 0.09999999999999999,
+        "total_bet": "0.15",
+        "timestamp": "2025-03-03 23:21:42"
+      },
+      {
+        "type": "flop",
+        "cards": [
+          "Jack of Diamonds",
+          "2 of Diamonds",
+          "2 of Spades"
+        ],
+        "timestamp": "2025-03-03 23:21:44"
+      },
+      {
+        "type": "bet",
+        "player": "olga carlman",
+        "amount": 0.15,
+        "total_bet": "0.15",
+        "timestamp": "2025-03-03 23:21:47"
+      },
+      {
+        "type": "fold",
+        "player": "imma bitch you",
+        "timestamp": "2025-03-03 23:21:52"
+      },
+      {
+        "type": "win",
+        "player": "olga carlman",
+        "stack_info": "6.85 (+0.30)",
+        "timestamp": "2025-03-03 23:21:52"
+      },
+      {
+        "type": "hand_complete",
+        "timestamp": "2025-03-03 23:21:52"
+      }
+    ],
+    "winners": [
+      {
+        "name": "olga carlman",
+        "stack_info": "6.85 (+0.30)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-03 23:22:15",
+    "game_type": "",
+    "blinds": [
+      "0.02",
+      "0.05"
+    ],
+    "dealer_position": "1",
+    "pot_size": "0.00",
+    "community_cards": [
+      "9 of Clubs",
+      "2 of Diamonds",
+      "Jack of Hearts",
+      "7 of Diamonds"
+    ],
+    "stage": "turn",
+    "players": [
+      {
+        "name": "olga carlman",
+        "stack": "7.10",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "5 of Spades",
+          "8 of Spades"
+        ],
+        "hand_message": "HIGH CARD"
+      },
+      {
+        "name": "imma bitch you",
+        "stack": "2.80",
+        "bet": "",
+        "status": "PlayerState.FOLDED",
+        "cards": [
+          "Unknown Card",
+          "Unknown Card"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "type": "new_hand",
+        "dealer": "1",
+        "blinds": [
+          "0.02",
+          "0.05"
+        ],
+        "timestamp": "2025-03-03 23:21:55"
+      },
+      {
+        "type": "bet",
+        "player": "olga carlman",
+        "amount": 0.02,
+        "total_bet": "0.02",
+        "timestamp": "2025-03-03 23:21:55"
+      },
+      {
+        "type": "bet",
+        "player": "imma bitch you",
+        "amount": 0.05,
+        "total_bet": "0.05",
+        "timestamp": "2025-03-03 23:21:55"
+      },
+      {
+        "type": "raise",
+        "player": "olga carlman",
+        "amount": 0.030000000000000002,
+        "total_bet": "0.05",
+        "timestamp": "2025-03-03 23:21:57"
+      },
+      {
+        "type": "flop",
+        "cards": [
+          "9 of Clubs",
+          "2 of Diamonds",
+          "Jack of Hearts"
+        ],
+        "timestamp": "2025-03-03 23:22:00"
+      },
+      {
+        "type": "turn",
+        "card": "7 of Diamonds",
+        "timestamp": "2025-03-03 23:22:04"
+      },
+      {
+        "type": "bet",
+        "player": "olga carlman",
+        "amount": 0.05,
+        "total_bet": "0.05",
+        "timestamp": "2025-03-03 23:22:10"
+      },
+      {
+        "type": "fold",
+        "player": "imma bitch you",
+        "timestamp": "2025-03-03 23:22:15"
+      },
+      {
+        "type": "win",
+        "player": "olga carlman",
+        "stack_info": "7.10 (+0.10)",
+        "timestamp": "2025-03-03 23:22:15"
+      },
+      {
+        "type": "hand_complete",
+        "timestamp": "2025-03-03 23:22:15"
+      }
+    ],
+    "winners": [
+      {
+        "name": "olga carlman",
+        "stack_info": "7.10 (+0.10)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-03 23:22:20",
+    "game_type": "",
+    "blinds": [
+      "0.02",
+      "0.05"
+    ],
+    "dealer_position": "7",
+    "pot_size": "0.00",
+    "community_cards": [],
+    "stage": "preflop",
+    "players": [
+      {
+        "name": "olga carlman",
+        "stack": "7.18",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "Ace of Spades",
+          "5 of Hearts"
+        ]
+      },
+      {
+        "name": "imma bitch you",
+        "stack": "2.78",
+        "bet": "",
+        "status": "PlayerState.FOLDED",
+        "cards": [
+          "Unknown Card",
+          "Unknown Card"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "type": "new_hand",
+        "dealer": "7",
+        "blinds": [
+          "0.02",
+          "0.05"
+        ],
+        "timestamp": "2025-03-03 23:22:17"
+      },
+      {
+        "type": "bet",
+        "player": "olga carlman",
+        "amount": 0.05,
+        "total_bet": "0.05",
+        "timestamp": "2025-03-03 23:22:17"
+      },
+      {
+        "type": "bet",
+        "player": "imma bitch you",
+        "amount": 0.02,
+        "total_bet": "0.02",
+        "timestamp": "2025-03-03 23:22:17"
+      },
+      {
+        "type": "fold",
+        "player": "imma bitch you",
+        "timestamp": "2025-03-03 23:22:20"
+      },
+      {
+        "type": "win",
+        "player": "olga carlman",
+        "stack_info": "7.18 (+0.04)",
+        "timestamp": "2025-03-03 23:22:20"
+      },
+      {
+        "type": "hand_complete",
+        "timestamp": "2025-03-03 23:22:20"
+      }
+    ],
+    "winners": [
+      {
+        "name": "olga carlman",
+        "stack_info": "7.18 (+0.04)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-03 23:22:25",
+    "game_type": "",
+    "blinds": [
+      "0.02",
+      "0.05"
+    ],
+    "dealer_position": "1",
+    "pot_size": "0.00",
+    "community_cards": [],
+    "stage": "preflop",
+    "players": [
+      {
+        "name": "olga carlman",
+        "stack": "7.20",
+        "bet": "",
+        "status": "PlayerState.FOLDED",
+        "cards": [
+          "2 of Clubs",
+          "5 of Hearts"
+        ]
+      },
+      {
+        "name": "imma bitch you",
+        "stack": "2.76",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "Unknown Card",
+          "Unknown Card"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "type": "new_hand",
+        "dealer": "1",
+        "blinds": [
+          "0.02",
+          "0.05"
+        ],
+        "timestamp": "2025-03-03 23:22:22"
+      },
+      {
+        "type": "bet",
+        "player": "olga carlman",
+        "amount": 0.02,
+        "total_bet": "0.02",
+        "timestamp": "2025-03-03 23:22:22"
+      },
+      {
+        "type": "bet",
+        "player": "imma bitch you",
+        "amount": 0.05,
+        "total_bet": "0.05",
+        "timestamp": "2025-03-03 23:22:22"
+      },
+      {
+        "type": "fold",
+        "player": "olga carlman",
+        "timestamp": "2025-03-03 23:22:25"
+      },
+      {
+        "type": "win",
+        "player": "imma bitch you",
+        "stack_info": "2.76 (+0.04)",
+        "timestamp": "2025-03-03 23:22:25"
+      },
+      {
+        "type": "hand_complete",
+        "timestamp": "2025-03-03 23:22:25"
+      }
+    ],
+    "winners": [
+      {
+        "name": "imma bitch you",
+        "stack_info": "2.76 (+0.04)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-03 23:22:27",
+    "game_type": "",
+    "blinds": [
+      "0.02",
+      "0.05"
+    ],
+    "dealer_position": "1",
+    "pot_size": "0.00",
+    "community_cards": [],
+    "stage": "preflop",
+    "players": [
+      {
+        "name": "olga carlman",
+        "stack": "7.20",
+        "bet": "",
+        "status": "PlayerState.FOLDED",
+        "cards": [
+          "2 of Clubs",
+          "5 of Hearts"
+        ]
+      },
+      {
+        "name": "imma bitch you",
+        "stack": "2.76",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "Unknown Card",
+          "5 of Spades"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "type": "hand_complete",
+        "timestamp": "2025-03-03 23:22:27"
+      }
+    ],
+    "winners": [
+      {
+        "name": "imma bitch you",
+        "stack_info": "2.76 (+0.04)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-03 23:22:30",
+    "game_type": "",
+    "blinds": [
+      "0.02",
+      "0.05"
+    ],
+    "dealer_position": "7",
+    "pot_size": "0.00",
+    "community_cards": [],
+    "stage": "preflop",
+    "players": [
+      {
+        "name": "olga carlman",
+        "stack": "7.18",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "5 of Diamonds",
+          "4 of Hearts"
+        ]
+      },
+      {
+        "name": "imma bitch you",
+        "stack": "2.78",
+        "bet": "",
+        "status": "PlayerState.FOLDED",
+        "cards": [
+          "Unknown Card",
+          "Unknown Card"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "type": "new_hand",
+        "dealer": "7",
+        "blinds": [
+          "0.02",
+          "0.05"
+        ],
+        "timestamp": "2025-03-03 23:22:30"
+      },
+      {
+        "type": "fold",
+        "player": "imma bitch you",
+        "timestamp": "2025-03-03 23:22:30"
+      },
+      {
+        "type": "hand_complete",
+        "timestamp": "2025-03-03 23:22:30"
+      }
+    ],
+    "winners": [
+      {
+        "name": "olga carlman",
+        "stack_info": "7.18 (+0.04)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-03 23:22:32",
+    "game_type": "",
+    "blinds": [
+      "0.02",
+      "0.05"
+    ],
+    "dealer_position": "7",
+    "pot_size": "0.00",
+    "community_cards": [],
+    "stage": "preflop",
+    "players": [
+      {
+        "name": "olga carlman",
+        "stack": "7.18",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "5 of Diamonds",
+          "4 of Hearts"
+        ]
+      },
+      {
+        "name": "imma bitch you",
+        "stack": "2.78",
+        "bet": "",
+        "status": "PlayerState.FOLDED",
+        "cards": [
+          "Unknown Card",
+          "Unknown Card"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "type": "hand_complete",
+        "timestamp": "2025-03-03 23:22:32"
+      }
+    ],
+    "winners": [
+      {
+        "name": "olga carlman",
+        "stack_info": "7.18 (+0.04)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-03 23:22:37",
+    "game_type": "",
+    "blinds": [
+      "0.02",
+      "0.05"
+    ],
+    "dealer_position": "1",
+    "pot_size": "0.00",
+    "community_cards": [],
+    "stage": "preflop",
+    "players": [
+      {
+        "name": "olga carlman",
+        "stack": "7.20",
+        "bet": "",
+        "status": "PlayerState.FOLDED",
+        "cards": [
+          "Jack of Spades",
+          "2 of Diamonds"
+        ]
+      },
+      {
+        "name": "imma bitch you",
+        "stack": "2.76",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "Unknown Card",
+          "Unknown Card"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "type": "new_hand",
+        "dealer": "1",
+        "blinds": [
+          "0.02",
+          "0.05"
+        ],
+        "timestamp": "2025-03-03 23:22:35"
+      },
+      {
+        "type": "bet",
+        "player": "olga carlman",
+        "amount": 0.02,
+        "total_bet": "0.02",
+        "timestamp": "2025-03-03 23:22:35"
+      },
+      {
+        "type": "bet",
+        "player": "imma bitch you",
+        "amount": 0.05,
+        "total_bet": "0.05",
+        "timestamp": "2025-03-03 23:22:35"
+      },
+      {
+        "type": "fold",
+        "player": "olga carlman",
+        "timestamp": "2025-03-03 23:22:37"
+      },
+      {
+        "type": "win",
+        "player": "imma bitch you",
+        "stack_info": "2.76 (+0.04)",
+        "timestamp": "2025-03-03 23:22:37"
+      },
+      {
+        "type": "hand_complete",
+        "timestamp": "2025-03-03 23:22:37"
+      }
+    ],
+    "winners": [
+      {
+        "name": "imma bitch you",
+        "stack_info": "2.76 (+0.04)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-03 23:22:42",
+    "game_type": "",
+    "blinds": [
+      "0.02",
+      "0.05"
+    ],
+    "dealer_position": "7",
+    "pot_size": "0.00",
+    "community_cards": [],
+    "stage": "preflop",
+    "players": [
+      {
+        "name": "olga carlman",
+        "stack": "7.18",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "8 of Diamonds",
+          "4 of Clubs"
+        ]
+      },
+      {
+        "name": "imma bitch you",
+        "stack": "2.78",
+        "bet": "",
+        "status": "PlayerState.FOLDED",
+        "cards": [
+          "Unknown Card",
+          "Unknown Card"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "type": "new_hand",
+        "dealer": "7",
+        "blinds": [
+          "0.02",
+          "0.05"
+        ],
+        "timestamp": "2025-03-03 23:22:40"
+      },
+      {
+        "type": "bet",
+        "player": "olga carlman",
+        "amount": 0.05,
+        "total_bet": "0.05",
+        "timestamp": "2025-03-03 23:22:40"
+      },
+      {
+        "type": "bet",
+        "player": "imma bitch you",
+        "amount": 0.02,
+        "total_bet": "0.02",
+        "timestamp": "2025-03-03 23:22:40"
+      },
+      {
+        "type": "fold",
+        "player": "imma bitch you",
+        "timestamp": "2025-03-03 23:22:42"
+      },
+      {
+        "type": "win",
+        "player": "olga carlman",
+        "stack_info": "7.18 (+0.04)",
+        "timestamp": "2025-03-03 23:22:42"
+      },
+      {
+        "type": "hand_complete",
+        "timestamp": "2025-03-03 23:22:42"
+      }
+    ],
+    "winners": [
+      {
+        "name": "olga carlman",
+        "stack_info": "7.18 (+0.04)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-03 23:22:47",
+    "game_type": "",
+    "blinds": [
+      "0.02",
+      "0.05"
+    ],
+    "dealer_position": "1",
+    "pot_size": "0.00",
+    "community_cards": [],
+    "stage": "preflop",
+    "players": [
+      {
+        "name": "olga carlman",
+        "stack": "7.20",
+        "bet": "",
+        "status": "PlayerState.FOLDED",
+        "cards": [
+          "4 of Hearts",
+          "7 of Clubs"
+        ]
+      },
+      {
+        "name": "imma bitch you",
+        "stack": "2.76",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "Unknown Card",
+          "Unknown Card"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "type": "new_hand",
+        "dealer": "1",
+        "blinds": [
+          "0.02",
+          "0.05"
+        ],
+        "timestamp": "2025-03-03 23:22:45"
+      },
+      {
+        "type": "bet",
+        "player": "olga carlman",
+        "amount": 0.02,
+        "total_bet": "0.02",
+        "timestamp": "2025-03-03 23:22:45"
+      },
+      {
+        "type": "bet",
+        "player": "imma bitch you",
+        "amount": 0.05,
+        "total_bet": "0.05",
+        "timestamp": "2025-03-03 23:22:45"
+      },
+      {
+        "type": "fold",
+        "player": "olga carlman",
+        "timestamp": "2025-03-03 23:22:47"
+      },
+      {
+        "type": "win",
+        "player": "imma bitch you",
+        "stack_info": "2.76 (+0.04)",
+        "timestamp": "2025-03-03 23:22:47"
+      },
+      {
+        "type": "hand_complete",
+        "timestamp": "2025-03-03 23:22:47"
+      }
+    ],
+    "winners": [
+      {
+        "name": "imma bitch you",
+        "stack_info": "2.76 (+0.04)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-03 23:23:23",
+    "game_type": "",
+    "blinds": [
+      "0.02",
+      "0.05"
+    ],
+    "dealer_position": "7",
+    "pot_size": "0.00",
+    "community_cards": [
+      "3 of Spades",
+      "4 of Diamonds",
+      "2 of Clubs",
+      "4 of Spades",
+      "6 of Clubs"
+    ],
+    "stage": "river",
+    "players": [
+      {
+        "name": "olga carlman",
+        "stack": "6.70",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "2 of Spades",
+          "Queen of Diamonds"
+        ],
+        "hand_message": "TWO PAIR (4,2)"
+      },
+      {
+        "name": "imma bitch you",
+        "stack": "2.30",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "3 of Hearts",
+          "2 of Hearts"
+        ],
+        "hand_message": "TWO PAIR (4,3)"
+      }
+    ],
+    "actions": [
+      {
+        "type": "new_hand",
+        "dealer": "7",
+        "blinds": [
+          "0.02",
+          "0.05"
+        ],
+        "timestamp": "2025-03-03 23:22:53"
+      },
+      {
+        "type": "bet",
+        "player": "olga carlman",
+        "amount": 0.05,
+        "total_bet": "0.05",
+        "timestamp": "2025-03-03 23:22:53"
+      },
+      {
+        "type": "bet",
+        "player": "imma bitch you",
+        "amount": 0.05,
+        "total_bet": "0.05",
+        "timestamp": "2025-03-03 23:22:53"
+      },
+      {
+        "type": "flop",
+        "cards": [
+          "3 of Spades",
+          "4 of Diamonds",
+          "2 of Clubs"
+        ],
+        "timestamp": "2025-03-03 23:22:55"
+      },
+      {
+        "type": "bet",
+        "player": "imma bitch you",
+        "amount": 0.05,
+        "total_bet": "0.05",
+        "timestamp": "2025-03-03 23:23:00"
+      },
+      {
+        "type": "turn",
+        "card": "4 of Spades",
+        "timestamp": "2025-03-03 23:23:03"
+      },
+      {
+        "type": "bet",
+        "player": "imma bitch you",
+        "amount": 0.1,
+        "total_bet": "0.10",
+        "timestamp": "2025-03-03 23:23:08"
+      },
+      {
+        "type": "bet",
+        "player": "olga carlman",
+        "amount": 0.4,
+        "total_bet": "0.40",
+        "timestamp": "2025-03-03 23:23:13"
+      },
+      {
+        "type": "raise",
+        "player": "imma bitch you",
+        "amount": 0.30000000000000004,
+        "total_bet": "0.40",
+        "timestamp": "2025-03-03 23:23:18"
+      },
+      {
+        "type": "river",
+        "card": "6 of Clubs",
+        "timestamp": "2025-03-03 23:23:20"
+      },
+      {
+        "type": "win",
+        "player": "imma bitch you",
+        "stack_info": "2.30 (+1.00)",
+        "timestamp": "2025-03-03 23:23:23"
+      },
+      {
+        "type": "hand_complete",
+        "timestamp": "2025-03-03 23:23:23"
+      }
+    ],
+    "winners": [
+      {
+        "name": "imma bitch you",
+        "stack_info": "2.30 (+1.00)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-03 23:23:26",
+    "game_type": "",
+    "blinds": [
+      "0.02",
+      "0.05"
+    ],
+    "dealer_position": "7",
+    "pot_size": "0.00",
+    "community_cards": [
+      "3 of Spades",
+      "4 of Diamonds",
+      "2 of Clubs",
+      "4 of Spades",
+      "6 of Clubs"
+    ],
+    "stage": "river",
+    "players": [
+      {
+        "name": "olga carlman",
+        "stack": "6.70",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "2 of Spades",
+          "Queen of Diamonds"
+        ],
+        "hand_message": "TWO PAIR (4,2)"
+      },
+      {
+        "name": "imma bitch you",
+        "stack": "2.30",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "3 of Hearts",
+          "2 of Hearts"
+        ],
+        "hand_message": "TWO PAIR (4,3)"
+      }
+    ],
+    "actions": [
+      {
+        "type": "hand_complete",
+        "timestamp": "2025-03-03 23:23:26"
+      }
+    ],
+    "winners": [
+      {
+        "name": "imma bitch you",
+        "stack_info": "2.30 (+1.00)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-03 23:23:28",
+    "game_type": "",
+    "blinds": [
+      "0.02",
+      "0.05"
+    ],
+    "dealer_position": "7",
+    "pot_size": "0.00",
+    "community_cards": [
+      "3 of Spades",
+      "4 of Diamonds",
+      "2 of Clubs",
+      "4 of Spades",
+      "6 of Clubs"
+    ],
+    "stage": "river",
+    "players": [
+      {
+        "name": "olga carlman",
+        "stack": "6.70",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "2 of Spades",
+          "Queen of Diamonds"
+        ],
+        "hand_message": "TWO PAIR (4,2)"
+      },
+      {
+        "name": "imma bitch you",
+        "stack": "2.30",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "3 of Hearts",
+          "2 of Hearts"
+        ],
+        "hand_message": "TWO PAIR (4,3)"
+      }
+    ],
+    "actions": [
+      {
+        "type": "hand_complete",
+        "timestamp": "2025-03-03 23:23:28"
+      }
+    ],
+    "winners": [
+      {
+        "name": "imma bitch you",
+        "stack_info": "2.30 (+1.00)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-03 23:23:38",
+    "game_type": "",
+    "blinds": [
+      "0.02",
+      "0.05"
+    ],
+    "dealer_position": "1",
+    "pot_size": "0.00",
+    "community_cards": [],
+    "stage": "preflop",
+    "players": [
+      {
+        "name": "olga carlman",
+        "stack": "6.65",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "6 of Hearts",
+          "6 of Clubs"
+        ]
+      },
+      {
+        "name": "imma bitch you",
+        "stack": "3.25",
+        "bet": "",
+        "status": "PlayerState.FOLDED",
+        "cards": [
+          "Unknown Card",
+          "Unknown Card"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "type": "new_hand",
+        "dealer": "1",
+        "blinds": [
+          "0.02",
+          "0.05"
+        ],
+        "timestamp": "2025-03-03 23:23:31"
+      },
+      {
+        "type": "bet",
+        "player": "olga carlman",
+        "amount": 0.02,
+        "total_bet": "0.02",
+        "timestamp": "2025-03-03 23:23:31"
+      },
+      {
+        "type": "bet",
+        "player": "imma bitch you",
+        "amount": 0.05,
+        "total_bet": "0.05",
+        "timestamp": "2025-03-03 23:23:31"
+      },
+      {
+        "type": "raise",
+        "player": "olga carlman",
+        "amount": 3.28,
+        "total_bet": "3.30",
+        "timestamp": "2025-03-03 23:23:33"
+      },
+      {
+        "type": "fold",
+        "player": "imma bitch you",
+        "timestamp": "2025-03-03 23:23:38"
+      },
+      {
+        "type": "win",
+        "player": "olga carlman",
+        "stack_info": "6.65 (+0.10)",
+        "timestamp": "2025-03-03 23:23:38"
+      },
+      {
+        "type": "hand_complete",
+        "timestamp": "2025-03-03 23:23:38"
+      }
+    ],
+    "winners": [
+      {
+        "name": "olga carlman",
+        "stack_info": "6.65 (+0.10)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-03 23:23:46",
+    "game_type": "",
+    "blinds": [
+      "0.02",
+      "0.05"
+    ],
+    "dealer_position": "7",
+    "pot_size": "0.00",
+    "community_cards": [],
+    "stage": "preflop",
+    "players": [
+      {
+        "name": "olga carlman",
+        "stack": "6.70",
+        "bet": "",
+        "status": "PlayerState.FOLDED",
+        "cards": [
+          "7 of Clubs",
+          "2 of Hearts"
+        ]
+      },
+      {
+        "name": "imma bitch you",
+        "stack": "3.20",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "Unknown Card",
+          "Unknown Card"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "type": "new_hand",
+        "dealer": "7",
+        "blinds": [
+          "0.02",
+          "0.05"
+        ],
+        "timestamp": "2025-03-03 23:23:41"
+      },
+      {
+        "type": "bet",
+        "player": "olga carlman",
+        "amount": 0.05,
+        "total_bet": "0.05",
+        "timestamp": "2025-03-03 23:23:41"
+      },
+      {
+        "type": "bet",
+        "player": "imma bitch you",
+        "amount": 0.02,
+        "total_bet": "0.02",
+        "timestamp": "2025-03-03 23:23:41"
+      },
+      {
+        "type": "raise",
+        "player": "imma bitch you",
+        "amount": 0.13,
+        "total_bet": "0.15",
+        "timestamp": "2025-03-03 23:23:43"
+      },
+      {
+        "type": "fold",
+        "player": "olga carlman",
+        "timestamp": "2025-03-03 23:23:46"
+      },
+      {
+        "type": "win",
+        "player": "imma bitch you",
+        "stack_info": "3.20 (+0.10)",
+        "timestamp": "2025-03-03 23:23:46"
+      },
+      {
+        "type": "hand_complete",
+        "timestamp": "2025-03-03 23:23:46"
+      }
+    ],
+    "winners": [
+      {
+        "name": "imma bitch you",
+        "stack_info": "3.20 (+0.10)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-03 23:23:48",
+    "game_type": "",
+    "blinds": [
+      "0.02",
+      "0.05"
+    ],
+    "dealer_position": "7",
+    "pot_size": "0.00",
+    "community_cards": [],
+    "stage": "preflop",
+    "players": [
+      {
+        "name": "olga carlman",
+        "stack": "6.70",
+        "bet": "",
+        "status": "PlayerState.FOLDED",
+        "cards": [
+          "7 of Clubs",
+          "2 of Hearts"
+        ]
+      },
+      {
+        "name": "imma bitch you",
+        "stack": "3.20",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "4 of Spades",
+          "Unknown Card"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "type": "hand_complete",
+        "timestamp": "2025-03-03 23:23:48"
+      }
+    ],
+    "winners": [
+      {
+        "name": "imma bitch you",
+        "stack_info": "3.20 (+0.10)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-03 23:24:08",
+    "game_type": "",
+    "blinds": [
+      "0.02",
+      "0.05"
+    ],
+    "dealer_position": "1",
+    "pot_size": "0.00",
+    "community_cards": [
+      "10 of Hearts",
+      "3 of Spades",
+      "6 of Hearts"
+    ],
+    "stage": "flop",
+    "players": [
+      {
+        "name": "olga carlman",
+        "stack": "6.58",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "Jack of Hearts",
+          "6 of Diamonds"
+        ],
+        "hand_message": "PAIR (6)"
+      },
+      {
+        "name": "imma bitch you",
+        "stack": "3.18",
+        "bet": "",
+        "status": "PlayerState.FOLDED",
+        "cards": [
+          "Unknown Card",
+          "Unknown Card"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "type": "new_hand",
+        "dealer": "1",
+        "blinds": [
+          "0.02",
+          "0.05"
+        ],
+        "timestamp": "2025-03-03 23:23:51"
+      },
+      {
+        "type": "bet",
+        "player": "olga carlman",
+        "amount": 0.02,
+        "total_bet": "0.02",
+        "timestamp": "2025-03-03 23:23:51"
+      },
+      {
+        "type": "bet",
+        "player": "imma bitch you",
+        "amount": 0.05,
+        "total_bet": "0.05",
+        "timestamp": "2025-03-03 23:23:51"
+      },
+      {
+        "type": "raise",
+        "player": "olga carlman",
+        "amount": 0.09999999999999999,
+        "total_bet": "0.12",
+        "timestamp": "2025-03-03 23:23:53"
+      },
+      {
+        "type": "flop",
+        "cards": [
+          "10 of Hearts",
+          "3 of Spades",
+          "6 of Hearts"
+        ],
+        "timestamp": "2025-03-03 23:23:56"
+      },
+      {
+        "type": "bet",
+        "player": "olga carlman",
+        "amount": 0.12,
+        "total_bet": "0.12",
+        "timestamp": "2025-03-03 23:24:06"
+      },
+      {
+        "type": "fold",
+        "player": "imma bitch you",
+        "timestamp": "2025-03-03 23:24:08"
+      },
+      {
+        "type": "win",
+        "player": "olga carlman",
+        "stack_info": "6.58 (+0.24)",
+        "timestamp": "2025-03-03 23:24:08"
+      },
+      {
+        "type": "hand_complete",
+        "timestamp": "2025-03-03 23:24:08"
+      }
+    ],
+    "winners": [
+      {
+        "name": "olga carlman",
+        "stack_info": "6.58 (+0.24)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-03 23:24:55",
+    "game_type": "",
+    "blinds": [
+      "0.02",
+      "0.05"
+    ],
+    "dealer_position": "7",
+    "pot_size": "0.00",
+    "community_cards": [
+      "5 of Hearts",
+      "10 of Clubs",
+      "8 of Spades",
+      "3 of Clubs",
+      "6 of Clubs",
+      "4 of Clubs",
+      "4 of Diamonds",
+      "2 of Diamonds",
+      "Ace of Spades",
+      "Queen of Clubs"
+    ],
+    "stage": "preflop",
+    "players": [
+      {
+        "name": "olga carlman",
+        "stack": "3.64",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "Ace of Hearts",
+          "9 of Clubs"
+        ],
+        "hand_message": "HIGH CARD"
+      },
+      {
+        "name": "imma bitch you",
+        "stack": "0.00",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "King of Clubs",
+          "Ace of Diamonds"
+        ],
+        "hand_message": "HIGH CARD"
+      }
+    ],
+    "actions": [
+      {
+        "type": "new_hand",
+        "dealer": "7",
+        "blinds": [
+          "0.02",
+          "0.05"
+        ],
+        "timestamp": "2025-03-03 23:24:11"
+      },
+      {
+        "type": "bet",
+        "player": "olga carlman",
+        "amount": 0.05,
+        "total_bet": "0.05",
+        "timestamp": "2025-03-03 23:24:11"
+      },
+      {
+        "type": "bet",
+        "player": "imma bitch you",
+        "amount": 0.02,
+        "total_bet": "0.02",
+        "timestamp": "2025-03-03 23:24:11"
+      },
+      {
+        "type": "raise",
+        "player": "imma bitch you",
+        "amount": 0.13,
+        "total_bet": "0.15",
+        "timestamp": "2025-03-03 23:24:14"
+      },
+      {
+        "type": "raise",
+        "player": "olga carlman",
+        "amount": 0.32,
+        "total_bet": "0.37",
+        "timestamp": "2025-03-03 23:24:16"
+      },
+      {
+        "type": "raise",
+        "player": "imma bitch you",
+        "amount": 0.77,
+        "total_bet": "0.92",
+        "timestamp": "2025-03-03 23:24:21"
+      },
+      {
+        "type": "raise",
+        "player": "olga carlman",
+        "amount": 2.81,
+        "total_bet": "3.18",
+        "timestamp": "2025-03-03 23:24:23"
+      },
+      {
+        "type": "raise",
+        "player": "imma bitch you",
+        "amount": 2.2600000000000002,
+        "total_bet": "3.18",
+        "timestamp": "2025-03-03 23:24:26"
+      },
+      {
+        "type": "flop",
+        "cards": [
+          "5 of Hearts",
+          "10 of Clubs",
+          "8 of Spades"
+        ],
+        "timestamp": "2025-03-03 23:24:31"
+      },
+      {
+        "type": "turn",
+        "card": "3 of Clubs",
+        "timestamp": "2025-03-03 23:24:36"
+      },
+      {
+        "type": "river",
+        "card": "6 of Clubs",
+        "timestamp": "2025-03-03 23:24:40"
+      },
+      {
+        "type": "win",
+        "player": "imma bitch you",
+        "stack_info": "0.00 (+6.36)",
+        "timestamp": "2025-03-03 23:24:55"
+      },
+      {
+        "type": "hand_complete",
+        "timestamp": "2025-03-03 23:24:55"
+      }
+    ],
+    "winners": [
+      {
+        "name": "imma bitch you",
+        "stack_info": "0.00 (+6.36)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-03 23:24:58",
+    "game_type": "",
+    "blinds": [
+      "0.02",
+      "0.05"
+    ],
+    "dealer_position": "7",
+    "pot_size": "0.00",
+    "community_cards": [
+      "5 of Hearts",
+      "10 of Clubs",
+      "8 of Spades",
+      "3 of Clubs",
+      "6 of Clubs",
+      "4 of Clubs",
+      "4 of Diamonds",
+      "2 of Diamonds",
+      "Ace of Spades",
+      "Queen of Clubs"
+    ],
+    "stage": "preflop",
+    "players": [
+      {
+        "name": "olga carlman",
+        "stack": "3.64",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "Ace of Hearts",
+          "9 of Clubs"
+        ],
+        "hand_message": "HIGH CARD"
+      },
+      {
+        "name": "imma bitch you",
+        "stack": "0.00",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "King of Clubs",
+          "Ace of Diamonds"
+        ],
+        "hand_message": "HIGH CARD"
+      }
+    ],
+    "actions": [
+      {
+        "type": "hand_complete",
+        "timestamp": "2025-03-03 23:24:58"
+      }
+    ],
+    "winners": [
+      {
+        "name": "imma bitch you",
+        "stack_info": "0.00 (+6.36)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-03 23:25:01",
+    "game_type": "",
+    "blinds": [
+      "0.02",
+      "0.05"
+    ],
+    "dealer_position": "7",
+    "pot_size": "0.00",
+    "community_cards": [
+      "5 of Hearts",
+      "10 of Clubs",
+      "8 of Spades",
+      "3 of Clubs",
+      "6 of Clubs",
+      "4 of Clubs",
+      "4 of Diamonds",
+      "2 of Diamonds",
+      "Ace of Spades",
+      "Queen of Clubs"
+    ],
+    "stage": "preflop",
+    "players": [
+      {
+        "name": "olga carlman",
+        "stack": "3.64",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "Ace of Hearts",
+          "9 of Clubs"
+        ],
+        "hand_message": "HIGH CARD"
+      },
+      {
+        "name": "imma bitch you",
+        "stack": "0.00",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "King of Clubs",
+          "Ace of Diamonds"
+        ],
+        "hand_message": "HIGH CARD"
+      }
+    ],
+    "actions": [
+      {
+        "type": "hand_complete",
+        "timestamp": "2025-03-03 23:25:01"
+      }
+    ],
+    "winners": [
+      {
+        "name": "imma bitch you",
+        "stack_info": "0.00 (+6.36)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-03 23:25:11",
+    "game_type": "",
+    "blinds": [
+      "0.02",
+      "0.05"
+    ],
+    "dealer_position": "1",
+    "pot_size": "0.00",
+    "community_cards": [],
+    "stage": "preflop",
+    "players": [
+      {
+        "name": "olga carlman",
+        "stack": "3.59",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "Jack of Diamonds",
+          "Ace of Hearts"
+        ]
+      },
+      {
+        "name": "imma bitch you",
+        "stack": "6.31",
+        "bet": "",
+        "status": "PlayerState.FOLDED",
+        "cards": [
+          "Unknown Card",
+          "Unknown Card"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "type": "new_hand",
+        "dealer": "1",
+        "blinds": [
+          "0.02",
+          "0.05"
+        ],
+        "timestamp": "2025-03-03 23:25:03"
+      },
+      {
+        "type": "bet",
+        "player": "olga carlman",
+        "amount": 0.02,
+        "total_bet": "0.02",
+        "timestamp": "2025-03-03 23:25:03"
+      },
+      {
+        "type": "bet",
+        "player": "imma bitch you",
+        "amount": 0.05,
+        "total_bet": "0.05",
+        "timestamp": "2025-03-03 23:25:03"
+      },
+      {
+        "type": "raise",
+        "player": "olga carlman",
+        "amount": 0.09999999999999999,
+        "total_bet": "0.12",
+        "timestamp": "2025-03-03 23:25:08"
+      },
+      {
+        "type": "fold",
+        "player": "imma bitch you",
+        "timestamp": "2025-03-03 23:25:11"
+      },
+      {
+        "type": "win",
+        "player": "olga carlman",
+        "stack_info": "3.59 (+0.10)",
+        "timestamp": "2025-03-03 23:25:11"
+      },
+      {
+        "type": "hand_complete",
+        "timestamp": "2025-03-03 23:25:11"
+      }
+    ],
+    "winners": [
+      {
+        "name": "olga carlman",
+        "stack_info": "3.59 (+0.10)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-03 23:25:18",
+    "game_type": "",
+    "blinds": [
+      "0.02",
+      "0.05"
+    ],
+    "dealer_position": "7",
+    "pot_size": "0.00",
+    "community_cards": [],
+    "stage": "preflop",
+    "players": [
+      {
+        "name": "olga carlman",
+        "stack": "3.67",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "Jack of Clubs",
+          "9 of Spades"
+        ]
+      },
+      {
+        "name": "imma bitch you",
+        "stack": "6.29",
+        "bet": "",
+        "status": "PlayerState.FOLDED",
+        "cards": [
+          "Unknown Card",
+          "Unknown Card"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "type": "new_hand",
+        "dealer": "7",
+        "blinds": [
+          "0.02",
+          "0.05"
+        ],
+        "timestamp": "2025-03-03 23:25:13"
+      },
+      {
+        "type": "bet",
+        "player": "olga carlman",
+        "amount": 0.05,
+        "total_bet": "0.05",
+        "timestamp": "2025-03-03 23:25:13"
+      },
+      {
+        "type": "bet",
+        "player": "imma bitch you",
+        "amount": 0.02,
+        "total_bet": "0.02",
+        "timestamp": "2025-03-03 23:25:13"
+      },
+      {
+        "type": "fold",
+        "player": "imma bitch you",
+        "timestamp": "2025-03-03 23:25:18"
+      },
+      {
+        "type": "win",
+        "player": "olga carlman",
+        "stack_info": "3.67 (+0.04)",
+        "timestamp": "2025-03-03 23:25:18"
+      },
+      {
+        "type": "hand_complete",
+        "timestamp": "2025-03-03 23:25:18"
+      }
+    ],
+    "winners": [
+      {
+        "name": "olga carlman",
+        "stack_info": "3.67 (+0.04)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-03 23:25:26",
+    "game_type": "",
+    "blinds": [
+      "0.02",
+      "0.05"
+    ],
+    "dealer_position": "1",
+    "pot_size": "0.00",
+    "community_cards": [],
+    "stage": "preflop",
+    "players": [
+      {
+        "name": "olga carlman",
+        "stack": "3.66",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "Ace of Hearts",
+          "Jack of Spades"
+        ]
+      },
+      {
+        "name": "imma bitch you",
+        "stack": "6.24",
+        "bet": "",
+        "status": "PlayerState.FOLDED",
+        "cards": [
+          "Unknown Card",
+          "Unknown Card"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "type": "new_hand",
+        "dealer": "1",
+        "blinds": [
+          "0.02",
+          "0.05"
+        ],
+        "timestamp": "2025-03-03 23:25:21"
+      },
+      {
+        "type": "bet",
+        "player": "olga carlman",
+        "amount": 0.02,
+        "total_bet": "0.02",
+        "timestamp": "2025-03-03 23:25:21"
+      },
+      {
+        "type": "bet",
+        "player": "imma bitch you",
+        "amount": 0.05,
+        "total_bet": "0.05",
+        "timestamp": "2025-03-03 23:25:21"
+      },
+      {
+        "type": "fold",
+        "player": "imma bitch you",
+        "timestamp": "2025-03-03 23:25:26"
+      },
+      {
+        "type": "win",
+        "player": "olga carlman",
+        "stack_info": "3.66 (+0.10)",
+        "timestamp": "2025-03-03 23:25:26"
+      },
+      {
+        "type": "hand_complete",
+        "timestamp": "2025-03-03 23:25:26"
+      }
+    ],
+    "winners": [
+      {
+        "name": "olga carlman",
+        "stack_info": "3.66 (+0.10)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-03 23:25:31",
+    "game_type": "",
+    "blinds": [
+      "0.02",
+      "0.05"
+    ],
+    "dealer_position": "7",
+    "pot_size": "0.00",
+    "community_cards": [],
+    "stage": "preflop",
+    "players": [
+      {
+        "name": "olga carlman",
+        "stack": "3.74",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "3 of Diamonds",
+          "2 of Spades"
+        ]
+      },
+      {
+        "name": "imma bitch you",
+        "stack": "6.22",
+        "bet": "",
+        "status": "PlayerState.FOLDED",
+        "cards": [
+          "Unknown Card",
+          "Unknown Card"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "type": "new_hand",
+        "dealer": "7",
+        "blinds": [
+          "0.02",
+          "0.05"
+        ],
+        "timestamp": "2025-03-03 23:25:28"
+      },
+      {
+        "type": "bet",
+        "player": "olga carlman",
+        "amount": 0.05,
+        "total_bet": "0.05",
+        "timestamp": "2025-03-03 23:25:28"
+      },
+      {
+        "type": "bet",
+        "player": "imma bitch you",
+        "amount": 0.02,
+        "total_bet": "0.02",
+        "timestamp": "2025-03-03 23:25:28"
+      },
+      {
+        "type": "fold",
+        "player": "imma bitch you",
+        "timestamp": "2025-03-03 23:25:31"
+      },
+      {
+        "type": "win",
+        "player": "olga carlman",
+        "stack_info": "3.74 (+0.04)",
+        "timestamp": "2025-03-03 23:25:31"
+      },
+      {
+        "type": "hand_complete",
+        "timestamp": "2025-03-03 23:25:31"
+      }
+    ],
+    "winners": [
+      {
+        "name": "olga carlman",
+        "stack_info": "3.74 (+0.04)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-03 23:25:49",
+    "game_type": "",
+    "blinds": [
+      "0.02",
+      "0.05"
+    ],
+    "dealer_position": "1",
+    "pot_size": "0.00",
+    "community_cards": [
+      "4 of Diamonds",
+      "7 of Diamonds",
+      "King of Clubs"
+    ],
+    "stage": "flop",
+    "players": [
+      {
+        "name": "olga carlman",
+        "stack": "3.63",
+        "bet": "",
+        "status": "PlayerState.FOLDED",
+        "cards": [
+          "6 of Clubs",
+          "Queen of Hearts"
+        ],
+        "hand_message": "HIGH CARD"
+      },
+      {
+        "name": "imma bitch you",
+        "stack": "6.07",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "Unknown Card",
+          "Unknown Card"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "type": "new_hand",
+        "dealer": "1",
+        "blinds": [
+          "0.02",
+          "0.05"
+        ],
+        "timestamp": "2025-03-03 23:25:33"
+      },
+      {
+        "type": "bet",
+        "player": "olga carlman",
+        "amount": 0.02,
+        "total_bet": "0.02",
+        "timestamp": "2025-03-03 23:25:33"
+      },
+      {
+        "type": "bet",
+        "player": "imma bitch you",
+        "amount": 0.05,
+        "total_bet": "0.05",
+        "timestamp": "2025-03-03 23:25:33"
+      },
+      {
+        "type": "raise",
+        "player": "olga carlman",
+        "amount": 0.030000000000000002,
+        "total_bet": "0.05",
+        "timestamp": "2025-03-03 23:25:36"
+      },
+      {
+        "type": "raise",
+        "player": "imma bitch you",
+        "amount": 0.09999999999999999,
+        "total_bet": "0.15",
+        "timestamp": "2025-03-03 23:25:38"
+      },
+      {
+        "type": "raise",
+        "player": "olga carlman",
+        "amount": 0.09999999999999999,
+        "total_bet": "0.15",
+        "timestamp": "2025-03-03 23:25:41"
+      },
+      {
+        "type": "flop",
+        "cards": [
+          "4 of Diamonds",
+          "7 of Diamonds",
+          "King of Clubs"
+        ],
+        "timestamp": "2025-03-03 23:25:43"
+      },
+      {
+        "type": "bet",
+        "player": "imma bitch you",
+        "amount": 0.15,
+        "total_bet": "0.15",
+        "timestamp": "2025-03-03 23:25:46"
+      },
+      {
+        "type": "fold",
+        "player": "olga carlman",
+        "timestamp": "2025-03-03 23:25:49"
+      },
+      {
+        "type": "win",
+        "player": "imma bitch you",
+        "stack_info": "6.07 (+0.30)",
+        "timestamp": "2025-03-03 23:25:49"
+      },
+      {
+        "type": "hand_complete",
+        "timestamp": "2025-03-03 23:25:49"
+      }
+    ],
+    "winners": [
+      {
+        "name": "imma bitch you",
+        "stack_info": "6.07 (+0.30)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-03 23:26:19",
+    "game_type": "",
+    "blinds": [
+      "0.02",
+      "0.05"
+    ],
+    "dealer_position": "7",
+    "pot_size": "0.00",
+    "community_cards": [
+      "Jack of Clubs",
+      "5 of Spades",
+      "9 of Spades"
+    ],
+    "stage": "flop",
+    "players": [
+      {
+        "name": "olga carlman",
+        "stack": "3.33",
+        "bet": "",
+        "status": "PlayerState.FOLDED",
+        "cards": [
+          "Jack of Hearts",
+          "8 of Clubs"
+        ],
+        "hand_message": "PAIR (J)"
+      },
+      {
+        "name": "imma bitch you",
+        "stack": "6.07",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "Unknown Card",
+          "Unknown Card"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "type": "new_hand",
+        "dealer": "7",
+        "blinds": [
+          "0.02",
+          "0.05"
+        ],
+        "timestamp": "2025-03-03 23:25:51"
+      },
+      {
+        "type": "bet",
+        "player": "olga carlman",
+        "amount": 0.05,
+        "total_bet": "0.05",
+        "timestamp": "2025-03-03 23:25:51"
+      },
+      {
+        "type": "bet",
+        "player": "imma bitch you",
+        "amount": 0.02,
+        "total_bet": "0.02",
+        "timestamp": "2025-03-03 23:25:51"
+      },
+      {
+        "type": "raise",
+        "player": "imma bitch you",
+        "amount": 0.13,
+        "total_bet": "0.15",
+        "timestamp": "2025-03-03 23:25:54"
+      },
+      {
+        "type": "raise",
+        "player": "olga carlman",
+        "amount": 0.09999999999999999,
+        "total_bet": "0.15",
+        "timestamp": "2025-03-03 23:25:56"
+      },
+      {
+        "type": "flop",
+        "cards": [
+          "Jack of Clubs",
+          "5 of Spades",
+          "9 of Spades"
+        ],
+        "timestamp": "2025-03-03 23:25:59"
+      },
+      {
+        "type": "bet",
+        "player": "olga carlman",
+        "amount": 0.15,
+        "total_bet": "0.15",
+        "timestamp": "2025-03-03 23:26:04"
+      },
+      {
+        "type": "bet",
+        "player": "imma bitch you",
+        "amount": 0.45,
+        "total_bet": "0.45",
+        "timestamp": "2025-03-03 23:26:06"
+      },
+      {
+        "type": "fold",
+        "player": "olga carlman",
+        "timestamp": "2025-03-03 23:26:19"
+      },
+      {
+        "type": "win",
+        "player": "imma bitch you",
+        "stack_info": "6.07 (+0.60)",
+        "timestamp": "2025-03-03 23:26:19"
+      },
+      {
+        "type": "hand_complete",
+        "timestamp": "2025-03-03 23:26:19"
+      }
+    ],
+    "winners": [
+      {
+        "name": "imma bitch you",
+        "stack_info": "6.07 (+0.60)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-03 23:26:27",
+    "game_type": "",
+    "blinds": [
+      "0.02",
+      "0.05"
+    ],
+    "dealer_position": "1",
+    "pot_size": "0.00",
+    "community_cards": [],
+    "stage": "preflop",
+    "players": [
+      {
+        "name": "olga carlman",
+        "stack": "3.28",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "Queen of Spades",
+          "5 of Spades"
+        ]
+      },
+      {
+        "name": "imma bitch you",
+        "stack": "6.62",
+        "bet": "",
+        "status": "PlayerState.FOLDED",
+        "cards": [
+          "Unknown Card",
+          "Unknown Card"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "type": "new_hand",
+        "dealer": "1",
+        "blinds": [
+          "0.02",
+          "0.05"
+        ],
+        "timestamp": "2025-03-03 23:26:22"
+      },
+      {
+        "type": "bet",
+        "player": "olga carlman",
+        "amount": 0.02,
+        "total_bet": "0.02",
+        "timestamp": "2025-03-03 23:26:22"
+      },
+      {
+        "type": "bet",
+        "player": "imma bitch you",
+        "amount": 0.05,
+        "total_bet": "0.05",
+        "timestamp": "2025-03-03 23:26:22"
+      },
+      {
+        "type": "raise",
+        "player": "olga carlman",
+        "amount": 0.09999999999999999,
+        "total_bet": "0.12",
+        "timestamp": "2025-03-03 23:26:24"
+      },
+      {
+        "type": "fold",
+        "player": "imma bitch you",
+        "timestamp": "2025-03-03 23:26:27"
+      },
+      {
+        "type": "win",
+        "player": "olga carlman",
+        "stack_info": "3.28 (+0.10)",
+        "timestamp": "2025-03-03 23:26:27"
+      },
+      {
+        "type": "hand_complete",
+        "timestamp": "2025-03-03 23:26:27"
+      }
+    ],
+    "winners": [
+      {
+        "name": "olga carlman",
+        "stack_info": "3.28 (+0.10)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-03 23:26:37",
+    "game_type": "",
+    "blinds": [
+      "0.02",
+      "0.05"
+    ],
+    "dealer_position": "7",
+    "pot_size": "0.00",
+    "community_cards": [],
+    "stage": "preflop",
+    "players": [
+      {
+        "name": "olga carlman",
+        "stack": "3.33",
+        "bet": "",
+        "status": "PlayerState.FOLDED",
+        "cards": [
+          "4 of Diamonds",
+          "6 of Spades"
+        ]
+      },
+      {
+        "name": "imma bitch you",
+        "stack": "6.57",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "Unknown Card",
+          "Unknown Card"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "type": "new_hand",
+        "dealer": "7",
+        "blinds": [
+          "0.02",
+          "0.05"
+        ],
+        "timestamp": "2025-03-03 23:26:29"
+      },
+      {
+        "type": "bet",
+        "player": "imma bitch you",
+        "amount": 0.02,
+        "total_bet": "0.02",
+        "timestamp": "2025-03-03 23:26:29"
+      },
+      {
+        "type": "bet",
+        "player": "olga carlman",
+        "amount": 0.05,
+        "total_bet": "0.05",
+        "timestamp": "2025-03-03 23:26:32"
+      },
+      {
+        "type": "raise",
+        "player": "imma bitch you",
+        "amount": 0.13,
+        "total_bet": "0.15",
+        "timestamp": "2025-03-03 23:26:34"
+      },
+      {
+        "type": "fold",
+        "player": "olga carlman",
+        "timestamp": "2025-03-03 23:26:37"
+      },
+      {
+        "type": "win",
+        "player": "imma bitch you",
+        "stack_info": "6.57 (+0.10)",
+        "timestamp": "2025-03-03 23:26:37"
+      },
+      {
+        "type": "hand_complete",
+        "timestamp": "2025-03-03 23:26:37"
+      }
+    ],
+    "winners": [
+      {
+        "name": "imma bitch you",
+        "stack_info": "6.57 (+0.10)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-03 23:26:44",
+    "game_type": "",
+    "blinds": [
+      "0.02",
+      "0.05"
+    ],
+    "dealer_position": "1",
+    "pot_size": "0.00",
+    "community_cards": [],
+    "stage": "preflop",
+    "players": [
+      {
+        "name": "olga carlman",
+        "stack": "3.28",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "Jack of Hearts",
+          "9 of Clubs"
+        ]
+      },
+      {
+        "name": "imma bitch you",
+        "stack": "6.62",
+        "bet": "",
+        "status": "PlayerState.FOLDED",
+        "cards": [
+          "Unknown Card",
+          "Unknown Card"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "type": "new_hand",
+        "dealer": "1",
+        "blinds": [
+          "0.02",
+          "0.05"
+        ],
+        "timestamp": "2025-03-03 23:26:39"
+      },
+      {
+        "type": "bet",
+        "player": "olga carlman",
+        "amount": 0.02,
+        "total_bet": "0.02",
+        "timestamp": "2025-03-03 23:26:39"
+      },
+      {
+        "type": "bet",
+        "player": "imma bitch you",
+        "amount": 0.05,
+        "total_bet": "0.05",
+        "timestamp": "2025-03-03 23:26:39"
+      },
+      {
+        "type": "raise",
+        "player": "olga carlman",
+        "amount": 0.09999999999999999,
+        "total_bet": "0.12",
+        "timestamp": "2025-03-03 23:26:42"
+      },
+      {
+        "type": "fold",
+        "player": "imma bitch you",
+        "timestamp": "2025-03-03 23:26:44"
+      },
+      {
+        "type": "win",
+        "player": "olga carlman",
+        "stack_info": "3.28 (+0.10)",
+        "timestamp": "2025-03-03 23:26:44"
+      },
+      {
+        "type": "hand_complete",
+        "timestamp": "2025-03-03 23:26:44"
+      }
+    ],
+    "winners": [
+      {
+        "name": "olga carlman",
+        "stack_info": "3.28 (+0.10)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-03 23:27:22",
+    "game_type": "",
+    "blinds": [
+      "0.02",
+      "0.05"
+    ],
+    "dealer_position": "7",
+    "pot_size": "0.00",
+    "community_cards": [
+      "9 of Hearts",
+      "8 of Clubs",
+      "5 of Hearts",
+      "3 of Clubs",
+      "5 of Diamonds"
+    ],
+    "stage": "river",
+    "players": [
+      {
+        "name": "olga carlman",
+        "stack": "3.08",
+        "bet": "",
+        "status": "PlayerState.FOLDED",
+        "cards": [
+          "2 of Clubs",
+          "7 of Clubs"
+        ],
+        "hand_message": "PAIR (5)"
+      },
+      {
+        "name": "imma bitch you",
+        "stack": "6.32",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "Unknown Card",
+          "Unknown Card"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "type": "new_hand",
+        "dealer": "7",
+        "blinds": [
+          "0.02",
+          "0.05"
+        ],
+        "timestamp": "2025-03-03 23:26:47"
+      },
+      {
+        "type": "bet",
+        "player": "olga carlman",
+        "amount": 0.05,
+        "total_bet": "0.05",
+        "timestamp": "2025-03-03 23:26:47"
+      },
+      {
+        "type": "bet",
+        "player": "imma bitch you",
+        "amount": 0.02,
+        "total_bet": "0.02",
+        "timestamp": "2025-03-03 23:26:47"
+      },
+      {
+        "type": "raise",
+        "player": "imma bitch you",
+        "amount": 0.030000000000000002,
+        "total_bet": "0.05",
+        "timestamp": "2025-03-03 23:26:49"
+      },
+      {
+        "type": "flop",
+        "cards": [
+          "9 of Hearts",
+          "8 of Clubs",
+          "5 of Hearts"
+        ],
+        "timestamp": "2025-03-03 23:26:54"
+      },
+      {
+        "type": "turn",
+        "card": "3 of Clubs",
+        "timestamp": "2025-03-03 23:26:59"
+      },
+      {
+        "type": "bet",
+        "player": "olga carlman",
+        "amount": 0.18,
+        "total_bet": "0.18",
+        "timestamp": "2025-03-03 23:27:04"
+      },
+      {
+        "type": "river",
+        "card": "5 of Diamonds",
+        "timestamp": "2025-03-03 23:27:07"
+      },
+      {
+        "type": "bet",
+        "player": "imma bitch you",
+        "amount": 0.3,
+        "total_bet": "0.30",
+        "timestamp": "2025-03-03 23:27:19"
+      },
+      {
+        "type": "fold",
+        "player": "olga carlman",
+        "timestamp": "2025-03-03 23:27:22"
+      },
+      {
+        "type": "win",
+        "player": "imma bitch you",
+        "stack_info": "6.32 (+0.60)",
+        "timestamp": "2025-03-03 23:27:22"
+      },
+      {
+        "type": "hand_complete",
+        "timestamp": "2025-03-03 23:27:22"
+      }
+    ],
+    "winners": [
+      {
+        "name": "imma bitch you",
+        "stack_info": "6.32 (+0.60)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-03 23:27:52",
+    "game_type": "",
+    "blinds": [
+      "0.02",
+      "0.05"
+    ],
+    "dealer_position": "1",
+    "pot_size": "0.00",
+    "community_cards": [
+      "2 of Hearts",
+      "King of Clubs",
+      "2 of Diamonds",
+      "Ace of Spades",
+      "Ace of Diamonds"
+    ],
+    "stage": "river",
+    "players": [
+      {
+        "name": "olga carlman",
+        "stack": "2.72",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "2 of Spades",
+          "6 of Spades"
+        ],
+        "hand_message": "FULL HOUSE"
+      },
+      {
+        "name": "imma bitch you",
+        "stack": "6.56",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "Unknown Card",
+          "Unknown Card"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "type": "new_hand",
+        "dealer": "1",
+        "blinds": [
+          "0.02",
+          "0.05"
+        ],
+        "timestamp": "2025-03-03 23:27:25"
+      },
+      {
+        "type": "bet",
+        "player": "olga carlman",
+        "amount": 0.02,
+        "total_bet": "0.02",
+        "timestamp": "2025-03-03 23:27:25"
+      },
+      {
+        "type": "bet",
+        "player": "imma bitch you",
+        "amount": 0.05,
+        "total_bet": "0.05",
+        "timestamp": "2025-03-03 23:27:25"
+      },
+      {
+        "type": "raise",
+        "player": "olga carlman",
+        "amount": 0.09999999999999999,
+        "total_bet": "0.12",
+        "timestamp": "2025-03-03 23:27:27"
+      },
+      {
+        "type": "flop",
+        "cards": [
+          "2 of Hearts",
+          "King of Clubs",
+          "2 of Diamonds"
+        ],
+        "timestamp": "2025-03-03 23:27:30"
+      },
+      {
+        "type": "turn",
+        "card": "Ace of Spades",
+        "timestamp": "2025-03-03 23:27:35"
+      },
+      {
+        "type": "river",
+        "card": "Ace of Diamonds",
+        "timestamp": "2025-03-03 23:27:40"
+      },
+      {
+        "type": "bet",
+        "player": "olga carlman",
+        "amount": 0.24,
+        "total_bet": "0.24",
+        "timestamp": "2025-03-03 23:27:45"
+      },
+      {
+        "type": "bet",
+        "player": "imma bitch you",
+        "amount": 0.24,
+        "total_bet": "0.24",
+        "timestamp": "2025-03-03 23:27:50"
+      },
+      {
+        "type": "win",
+        "player": "olga carlman",
+        "stack_info": "2.72 (+0.72)",
+        "timestamp": "2025-03-03 23:27:52"
+      },
+      {
+        "type": "hand_complete",
+        "timestamp": "2025-03-03 23:27:52"
+      }
+    ],
+    "winners": [
+      {
+        "name": "olga carlman",
+        "stack_info": "2.72 (+0.72)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-03 23:27:55",
+    "game_type": "",
+    "blinds": [
+      "0.02",
+      "0.05"
+    ],
+    "dealer_position": "1",
+    "pot_size": "0.00",
+    "community_cards": [
+      "2 of Hearts",
+      "King of Clubs",
+      "2 of Diamonds",
+      "Ace of Spades",
+      "Ace of Diamonds"
+    ],
+    "stage": "river",
+    "players": [
+      {
+        "name": "olga carlman",
+        "stack": "2.72",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "2 of Spades",
+          "6 of Spades"
+        ],
+        "hand_message": "FULL HOUSE"
+      },
+      {
+        "name": "imma bitch you",
+        "stack": "6.56",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "Unknown Card",
+          "Unknown Card"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "type": "hand_complete",
+        "timestamp": "2025-03-03 23:27:55"
+      }
+    ],
+    "winners": [
+      {
+        "name": "olga carlman",
+        "stack_info": "2.72 (+0.72)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-03 23:28:02",
+    "game_type": "",
+    "blinds": [
+      "0.02",
+      "0.05"
+    ],
+    "dealer_position": "7",
+    "pot_size": "0.00",
+    "community_cards": [],
+    "stage": "preflop",
+    "players": [
+      {
+        "name": "olga carlman",
+        "stack": "3.39",
+        "bet": "",
+        "status": "PlayerState.FOLDED",
+        "cards": [
+          "King of Hearts",
+          "2 of Clubs"
+        ]
+      },
+      {
+        "name": "imma bitch you",
+        "stack": "6.51",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "Unknown Card",
+          "Unknown Card"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "type": "new_hand",
+        "dealer": "7",
+        "blinds": [
+          "0.02",
+          "0.05"
+        ],
+        "timestamp": "2025-03-03 23:27:57"
+      },
+      {
+        "type": "bet",
+        "player": "olga carlman",
+        "amount": 0.05,
+        "total_bet": "0.05",
+        "timestamp": "2025-03-03 23:27:57"
+      },
+      {
+        "type": "bet",
+        "player": "imma bitch you",
+        "amount": 0.02,
+        "total_bet": "0.02",
+        "timestamp": "2025-03-03 23:27:57"
+      },
+      {
+        "type": "raise",
+        "player": "imma bitch you",
+        "amount": 0.13,
+        "total_bet": "0.15",
+        "timestamp": "2025-03-03 23:28:00"
+      },
+      {
+        "type": "fold",
+        "player": "olga carlman",
+        "timestamp": "2025-03-03 23:28:02"
+      },
+      {
+        "type": "win",
+        "player": "imma bitch you",
+        "stack_info": "6.51 (+0.10)",
+        "timestamp": "2025-03-03 23:28:02"
+      },
+      {
+        "type": "hand_complete",
+        "timestamp": "2025-03-03 23:28:02"
+      }
+    ],
+    "winners": [
+      {
+        "name": "imma bitch you",
+        "stack_info": "6.51 (+0.10)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-03 23:28:08",
+    "game_type": "",
+    "blinds": [
+      "0.02",
+      "0.05"
+    ],
+    "dealer_position": "1",
+    "pot_size": "0.00",
+    "community_cards": [],
+    "stage": "preflop",
+    "players": [
+      {
+        "name": "olga carlman",
+        "stack": "3.37",
+        "bet": "",
+        "status": "PlayerState.FOLDED",
+        "cards": [
+          "7 of Spades",
+          "2 of Hearts"
+        ]
+      },
+      {
+        "name": "imma bitch you",
+        "stack": "6.59",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "Unknown Card",
+          "Unknown Card"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "type": "new_hand",
+        "dealer": "1",
+        "blinds": [
+          "0.02",
+          "0.05"
+        ],
+        "timestamp": "2025-03-03 23:28:05"
+      },
+      {
+        "type": "bet",
+        "player": "olga carlman",
+        "amount": 0.02,
+        "total_bet": "0.02",
+        "timestamp": "2025-03-03 23:28:05"
+      },
+      {
+        "type": "bet",
+        "player": "imma bitch you",
+        "amount": 0.05,
+        "total_bet": "0.05",
+        "timestamp": "2025-03-03 23:28:05"
+      },
+      {
+        "type": "fold",
+        "player": "olga carlman",
+        "timestamp": "2025-03-03 23:28:08"
+      },
+      {
+        "type": "win",
+        "player": "imma bitch you",
+        "stack_info": "6.59 (+0.04)",
+        "timestamp": "2025-03-03 23:28:08"
+      },
+      {
+        "type": "hand_complete",
+        "timestamp": "2025-03-03 23:28:08"
+      }
+    ],
+    "winners": [
+      {
+        "name": "imma bitch you",
+        "stack_info": "6.59 (+0.04)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-03 23:28:13",
+    "game_type": "",
+    "blinds": [
+      "0.02",
+      "0.05"
+    ],
+    "dealer_position": "7",
+    "pot_size": "0.00",
+    "community_cards": [],
+    "stage": "preflop",
+    "players": [
+      {
+        "name": "olga carlman",
+        "stack": "3.35",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "2 of Diamonds",
+          "4 of Clubs"
+        ]
+      },
+      {
+        "name": "imma bitch you",
+        "stack": "6.61",
+        "bet": "",
+        "status": "PlayerState.FOLDED",
+        "cards": [
+          "Unknown Card",
+          "Unknown Card"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "type": "new_hand",
+        "dealer": "7",
+        "blinds": [
+          "0.02",
+          "0.05"
+        ],
+        "timestamp": "2025-03-03 23:28:10"
+      },
+      {
+        "type": "bet",
+        "player": "olga carlman",
+        "amount": 0.05,
+        "total_bet": "0.05",
+        "timestamp": "2025-03-03 23:28:10"
+      },
+      {
+        "type": "bet",
+        "player": "imma bitch you",
+        "amount": 0.02,
+        "total_bet": "0.02",
+        "timestamp": "2025-03-03 23:28:10"
+      },
+      {
+        "type": "fold",
+        "player": "imma bitch you",
+        "timestamp": "2025-03-03 23:28:13"
+      },
+      {
+        "type": "win",
+        "player": "olga carlman",
+        "stack_info": "3.35 (+0.04)",
+        "timestamp": "2025-03-03 23:28:13"
+      },
+      {
+        "type": "hand_complete",
+        "timestamp": "2025-03-03 23:28:13"
+      }
+    ],
+    "winners": [
+      {
+        "name": "olga carlman",
+        "stack_info": "3.35 (+0.04)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-03 23:28:38",
+    "game_type": "",
+    "blinds": [
+      "0.02",
+      "0.05"
+    ],
+    "dealer_position": "1",
+    "pot_size": "0.00",
+    "community_cards": [
+      "7 of Spades",
+      "2 of Hearts",
+      "Jack of Spades",
+      "8 of Hearts",
+      "King of Diamonds"
+    ],
+    "stage": "river",
+    "players": [
+      {
+        "name": "olga carlman",
+        "stack": "3.24",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "5 of Clubs",
+          "Ace of Diamonds"
+        ],
+        "hand_message": "HIGH CARD"
+      },
+      {
+        "name": "imma bitch you",
+        "stack": "6.46",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "3 of Spades",
+          "Queen of Clubs"
+        ],
+        "hand_message": "HIGH CARD"
+      }
+    ],
+    "actions": [
+      {
+        "type": "new_hand",
+        "dealer": "1",
+        "blinds": [
+          "0.02",
+          "0.05"
+        ],
+        "timestamp": "2025-03-03 23:28:15"
+      },
+      {
+        "type": "bet",
+        "player": "olga carlman",
+        "amount": 0.02,
+        "total_bet": "0.02",
+        "timestamp": "2025-03-03 23:28:15"
+      },
+      {
+        "type": "bet",
+        "player": "imma bitch you",
+        "amount": 0.05,
+        "total_bet": "0.05",
+        "timestamp": "2025-03-03 23:28:15"
+      },
+      {
+        "type": "raise",
+        "player": "olga carlman",
+        "amount": 0.030000000000000002,
+        "total_bet": "0.05",
+        "timestamp": "2025-03-03 23:28:18"
+      },
+      {
+        "type": "flop",
+        "cards": [
+          "7 of Spades",
+          "2 of Hearts",
+          "Jack of Spades"
+        ],
+        "timestamp": "2025-03-03 23:28:20"
+      },
+      {
+        "type": "turn",
+        "card": "8 of Hearts",
+        "timestamp": "2025-03-03 23:28:28"
+      },
+      {
+        "type": "bet",
+        "player": "imma bitch you",
+        "amount": 0.05,
+        "total_bet": "0.05",
+        "timestamp": "2025-03-03 23:28:28"
+      },
+      {
+        "type": "river",
+        "card": "King of Diamonds",
+        "timestamp": "2025-03-03 23:28:33"
+      },
+      {
+        "type": "bet",
+        "player": "olga carlman",
+        "amount": 0.05,
+        "total_bet": "0.05",
+        "timestamp": "2025-03-03 23:28:35"
+      },
+      {
+        "type": "bet",
+        "player": "imma bitch you",
+        "amount": 0.05,
+        "total_bet": "0.05",
+        "timestamp": "2025-03-03 23:28:35"
+      },
+      {
+        "type": "win",
+        "player": "olga carlman",
+        "stack_info": "3.24 (+0.30)",
+        "timestamp": "2025-03-03 23:28:38"
+      },
+      {
+        "type": "hand_complete",
+        "timestamp": "2025-03-03 23:28:38"
+      }
+    ],
+    "winners": [
+      {
+        "name": "olga carlman",
+        "stack_info": "3.24 (+0.30)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-03 23:28:40",
+    "game_type": "",
+    "blinds": [
+      "0.02",
+      "0.05"
+    ],
+    "dealer_position": "1",
+    "pot_size": "0.00",
+    "community_cards": [
+      "7 of Spades",
+      "2 of Hearts",
+      "Jack of Spades",
+      "8 of Hearts",
+      "King of Diamonds"
+    ],
+    "stage": "river",
+    "players": [
+      {
+        "name": "olga carlman",
+        "stack": "3.24",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "5 of Clubs",
+          "Ace of Diamonds"
+        ],
+        "hand_message": "HIGH CARD"
+      },
+      {
+        "name": "imma bitch you",
+        "stack": "6.46",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "3 of Spades",
+          "Queen of Clubs"
+        ],
+        "hand_message": "HIGH CARD"
+      }
+    ],
+    "actions": [
+      {
+        "type": "hand_complete",
+        "timestamp": "2025-03-03 23:28:40"
+      }
+    ],
+    "winners": [
+      {
+        "name": "olga carlman",
+        "stack_info": "3.24 (+0.30)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-03 23:29:01",
+    "game_type": "",
+    "blinds": [
+      "0.02",
+      "0.05"
+    ],
+    "dealer_position": "7",
+    "pot_size": "2.24",
+    "community_cards": [
+      "9 of Diamonds",
+      "Ace of Clubs",
+      "3 of Hearts",
+      "5 of Spades"
+    ],
+    "stage": "turn",
+    "players": [
+      {
+        "name": "olga carlman",
+        "stack": "0.74",
+        "bet": "1.68",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "Ace of Hearts",
+          "King of Hearts"
+        ],
+        "hand_message": "PAIR (A)"
+      },
+      {
+        "name": "imma bitch you",
+        "stack": "5.34",
+        "bet": "",
+        "status": "PlayerState.FOLDED",
+        "cards": [
+          "Unknown Card",
+          "Unknown Card"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "type": "new_hand",
+        "dealer": "7",
+        "blinds": [
+          "0.02",
+          "0.05"
+        ],
+        "timestamp": "2025-03-03 23:28:43"
+      },
+      {
+        "type": "bet",
+        "player": "olga carlman",
+        "amount": 0.05,
+        "total_bet": "0.05",
+        "timestamp": "2025-03-03 23:28:43"
+      },
+      {
+        "type": "bet",
+        "player": "imma bitch you",
+        "amount": 0.02,
+        "total_bet": "0.02",
+        "timestamp": "2025-03-03 23:28:43"
+      },
+      {
+        "type": "raise",
+        "player": "imma bitch you",
+        "amount": 0.13,
+        "total_bet": "0.15",
+        "timestamp": "2025-03-03 23:28:45"
+      },
+      {
+        "type": "raise",
+        "player": "olga carlman",
+        "amount": 0.4,
+        "total_bet": "0.45",
+        "timestamp": "2025-03-03 23:28:48"
+      },
+      {
+        "type": "flop",
+        "cards": [
+          "9 of Diamonds",
+          "Ace of Clubs",
+          "3 of Hearts"
+        ],
+        "timestamp": "2025-03-03 23:28:50"
+      },
+      {
+        "type": "turn",
+        "card": "5 of Spades",
+        "timestamp": "2025-03-03 23:28:56"
+      },
+      {
+        "type": "bet",
+        "player": "olga carlman",
+        "amount": 1.68,
+        "total_bet": "1.68",
+        "timestamp": "2025-03-03 23:29:01"
+      },
+      {
+        "type": "fold",
+        "player": "imma bitch you",
+        "timestamp": "2025-03-03 23:29:01"
+      },
+      {
+        "type": "win",
+        "player": "olga carlman",
+        "stack_info": "2.42 (+2.24)",
+        "timestamp": "2025-03-03 23:29:01"
+      },
+      {
+        "type": "hand_complete",
+        "timestamp": "2025-03-03 23:29:01"
+      }
+    ],
+    "winners": [
+      {
+        "name": "olga carlman",
+        "stack_info": "2.42 (+2.24)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-03 23:29:03",
+    "game_type": "",
+    "blinds": [
+      "0.02",
+      "0.05"
+    ],
+    "dealer_position": "7",
+    "pot_size": "0.00",
+    "community_cards": [
+      "9 of Diamonds",
+      "Ace of Clubs",
+      "3 of Hearts",
+      "5 of Spades"
+    ],
+    "stage": "turn",
+    "players": [
+      {
+        "name": "olga carlman",
+        "stack": "2.42",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "Ace of Hearts",
+          "King of Hearts"
+        ],
+        "hand_message": "PAIR (A)"
+      },
+      {
+        "name": "imma bitch you",
+        "stack": "5.34",
+        "bet": "",
+        "status": "PlayerState.FOLDED",
+        "cards": [
+          "Unknown Card",
+          "Unknown Card"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "type": "hand_complete",
+        "timestamp": "2025-03-03 23:29:03"
+      }
+    ],
+    "winners": [
+      {
+        "name": "olga carlman",
+        "stack_info": "2.42 (+2.24)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-03 23:29:58",
+    "game_type": "",
+    "blinds": [
+      "0.02",
+      "0.05"
+    ],
+    "dealer_position": "1",
+    "pot_size": "0.00",
+    "community_cards": [
+      "Ace of Diamonds",
+      "Ace of Spades",
+      "9 of Hearts",
+      "8 of Hearts",
+      "Queen of Diamonds",
+      "Ace of Diamonds",
+      "Ace of Spades",
+      "9 of Hearts",
+      "2 of Hearts",
+      "5 of Clubs"
+    ],
+    "stage": "preflop",
+    "players": [
+      {
+        "name": "olga carlman",
+        "stack": "0.00",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "Jack of Spades",
+          "Ace of Hearts"
+        ],
+        "hand_message": "THREE OF A KIND"
+      },
+      {
+        "name": "imma bitch you",
+        "stack": "0.68",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "King of Hearts",
+          "King of Clubs"
+        ],
+        "hand_message": "TWO PAIR (A,K)"
+      }
+    ],
+    "actions": [
+      {
+        "type": "new_hand",
+        "dealer": "1",
+        "blinds": [
+          "0.02",
+          "0.05"
+        ],
+        "timestamp": "2025-03-03 23:29:06"
+      },
+      {
+        "type": "bet",
+        "player": "olga carlman",
+        "amount": 0.02,
+        "total_bet": "0.02",
+        "timestamp": "2025-03-03 23:29:06"
+      },
+      {
+        "type": "bet",
+        "player": "imma bitch you",
+        "amount": 0.05,
+        "total_bet": "0.05",
+        "timestamp": "2025-03-03 23:29:06"
+      },
+      {
+        "type": "raise",
+        "player": "olga carlman",
+        "amount": 0.09999999999999999,
+        "total_bet": "0.12",
+        "timestamp": "2025-03-03 23:29:08"
+      },
+      {
+        "type": "raise",
+        "player": "imma bitch you",
+        "amount": 0.25,
+        "total_bet": "0.30",
+        "timestamp": "2025-03-03 23:29:11"
+      },
+      {
+        "type": "raise",
+        "player": "olga carlman",
+        "amount": 0.63,
+        "total_bet": "0.75",
+        "timestamp": "2025-03-03 23:29:13"
+      },
+      {
+        "type": "raise",
+        "player": "imma bitch you",
+        "amount": 1.57,
+        "total_bet": "1.87",
+        "timestamp": "2025-03-03 23:29:21"
+      },
+      {
+        "type": "flop",
+        "cards": [
+          "Ace of Diamonds",
+          "Ace of Spades",
+          "9 of Hearts"
+        ],
+        "timestamp": "2025-03-03 23:29:23"
+      },
+      {
+        "type": "bet",
+        "player": "imma bitch you",
+        "amount": 1.87,
+        "total_bet": "1.87",
+        "timestamp": "2025-03-03 23:29:26"
+      },
+      {
+        "type": "bet",
+        "player": "olga carlman",
+        "amount": 2.79,
+        "total_bet": "2.79",
+        "timestamp": "2025-03-03 23:29:33"
+      },
+      {
+        "type": "raise",
+        "player": "imma bitch you",
+        "amount": 0.9199999999999999,
+        "total_bet": "2.79",
+        "timestamp": "2025-03-03 23:29:33"
+      },
+      {
+        "type": "win",
+        "player": "olga carlman",
+        "stack_info": "0.00 (+9.32)",
+        "timestamp": "2025-03-03 23:29:58"
+      },
+      {
+        "type": "hand_complete",
+        "timestamp": "2025-03-03 23:29:58"
+      }
+    ],
+    "winners": [
+      {
+        "name": "olga carlman",
+        "stack_info": "0.00 (+9.32)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-03 23:30:01",
+    "game_type": "",
+    "blinds": [
+      "0.02",
+      "0.05"
+    ],
+    "dealer_position": "1",
+    "pot_size": "0.00",
+    "community_cards": [
+      "Ace of Diamonds",
+      "Ace of Spades",
+      "9 of Hearts",
+      "8 of Hearts",
+      "Queen of Diamonds",
+      "Ace of Diamonds",
+      "Ace of Spades",
+      "9 of Hearts",
+      "2 of Hearts",
+      "5 of Clubs"
+    ],
+    "stage": "preflop",
+    "players": [
+      {
+        "name": "olga carlman",
+        "stack": "0.00",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "Jack of Spades",
+          "Ace of Hearts"
+        ],
+        "hand_message": "THREE OF A KIND"
+      },
+      {
+        "name": "imma bitch you",
+        "stack": "0.68",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "King of Hearts",
+          "King of Clubs"
+        ],
+        "hand_message": "TWO PAIR (A,K)"
+      }
+    ],
+    "actions": [
+      {
+        "type": "hand_complete",
+        "timestamp": "2025-03-03 23:30:01"
+      }
+    ],
+    "winners": [
+      {
+        "name": "olga carlman",
+        "stack_info": "0.00 (+9.32)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-03 23:30:03",
+    "game_type": "",
+    "blinds": [
+      "0.02",
+      "0.05"
+    ],
+    "dealer_position": "1",
+    "pot_size": "0.00",
+    "community_cards": [
+      "Ace of Diamonds",
+      "Ace of Spades",
+      "9 of Hearts",
+      "8 of Hearts",
+      "Queen of Diamonds",
+      "Ace of Diamonds",
+      "Ace of Spades",
+      "9 of Hearts",
+      "2 of Hearts",
+      "5 of Clubs"
+    ],
+    "stage": "preflop",
+    "players": [
+      {
+        "name": "olga carlman",
+        "stack": "0.00",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "Jack of Spades",
+          "Ace of Hearts"
+        ],
+        "hand_message": "THREE OF A KIND"
+      },
+      {
+        "name": "imma bitch you",
+        "stack": "0.68",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "King of Hearts",
+          "King of Clubs"
+        ],
+        "hand_message": "TWO PAIR (A,K)"
+      }
+    ],
+    "actions": [
+      {
+        "type": "hand_complete",
+        "timestamp": "2025-03-03 23:30:03"
+      }
+    ],
+    "winners": [
+      {
+        "name": "olga carlman",
+        "stack_info": "0.00 (+9.32)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-03 23:30:16",
+    "game_type": "",
+    "blinds": [
+      "0.02",
+      "0.05"
+    ],
+    "dealer_position": "7",
+    "pot_size": "0.00",
+    "community_cards": [],
+    "stage": "preflop",
+    "players": [
+      {
+        "name": "olga carlman",
+        "stack": "9.27",
+        "bet": "0.05",
+        "status": "PlayerState.CURRENT",
+        "cards": [
+          "Jack of Diamonds",
+          "4 of Clubs"
+        ]
+      },
+      {
+        "name": "imma bitch you",
+        "stack": "0.63",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "Unknown Card",
+          "Unknown Card"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "type": "new_hand",
+        "dealer": "7",
+        "blinds": [
+          "0.02",
+          "0.05"
+        ],
+        "timestamp": "2025-03-03 23:30:06"
+      },
+      {
+        "type": "bet",
+        "player": "olga carlman",
+        "amount": 0.05,
+        "total_bet": "0.05",
+        "timestamp": "2025-03-03 23:30:06"
+      },
+      {
+        "type": "bet",
+        "player": "imma bitch you",
+        "amount": 0.02,
+        "total_bet": "0.02",
+        "timestamp": "2025-03-03 23:30:06"
+      },
+      {
+        "type": "raise",
+        "player": "imma bitch you",
+        "amount": 0.13,
+        "total_bet": "0.15",
+        "timestamp": "2025-03-03 23:30:08"
+      },
+      {
+        "type": "win",
+        "player": "imma bitch you",
+        "stack_info": "0.63 (+0.10)",
+        "timestamp": "2025-03-03 23:30:16"
+      },
+      {
+        "type": "hand_complete",
+        "timestamp": "2025-03-03 23:30:16"
+      }
+    ],
+    "winners": [
+      {
+        "name": "imma bitch you",
+        "stack_info": "0.63 (+0.10)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-03 23:30:18",
+    "game_type": "",
+    "blinds": [
+      "0.02",
+      "0.05"
+    ],
+    "dealer_position": "7",
+    "pot_size": "0.00",
+    "community_cards": [],
+    "stage": "preflop",
+    "players": [
+      {
+        "name": "olga carlman",
+        "stack": "9.27",
+        "bet": "",
+        "status": "PlayerState.FOLDED",
+        "cards": [
+          "Jack of Diamonds",
+          "4 of Clubs"
+        ]
+      },
+      {
+        "name": "imma bitch you",
+        "stack": "0.63",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "Unknown Card",
+          "Unknown Card"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "type": "fold",
+        "player": "olga carlman",
+        "timestamp": "2025-03-03 23:30:18"
+      },
+      {
+        "type": "hand_complete",
+        "timestamp": "2025-03-03 23:30:18"
+      }
+    ],
+    "winners": [
+      {
+        "name": "imma bitch you",
+        "stack_info": "0.63 (+0.10)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-03 23:30:53",
+    "game_type": "",
+    "blinds": [
+      "0.02",
+      "0.05"
+    ],
+    "dealer_position": "1",
+    "pot_size": "0.00",
+    "community_cards": [],
+    "stage": "preflop",
+    "players": [
+      {
+        "name": "olga carlman",
+        "stack": "9.22",
+        "bet": "",
+        "status": "PlayerState.ACTIVE",
+        "cards": [
+          "King of Diamonds",
+          "King of Clubs"
+        ]
+      },
+      {
+        "name": "imma bitch you",
+        "stack": "0.68",
+        "bet": "",
+        "status": "PlayerState.FOLDED",
+        "cards": [
+          "Unknown Card",
+          "Unknown Card"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "type": "new_hand",
+        "dealer": "1",
+        "blinds": [
+          "0.02",
+          "0.05"
+        ],
+        "timestamp": "2025-03-03 23:30:21"
+      },
+      {
+        "type": "bet",
+        "player": "olga carlman",
+        "amount": 0.02,
+        "total_bet": "0.02",
+        "timestamp": "2025-03-03 23:30:21"
+      },
+      {
+        "type": "bet",
+        "player": "imma bitch you",
+        "amount": 0.05,
+        "total_bet": "0.05",
+        "timestamp": "2025-03-03 23:30:21"
+      },
+      {
+        "type": "raise",
+        "player": "olga carlman",
+        "amount": 0.71,
+        "total_bet": "0.73",
+        "timestamp": "2025-03-03 23:30:26"
+      },
+      {
+        "type": "fold",
+        "player": "imma bitch you",
+        "timestamp": "2025-03-03 23:30:53"
+      },
+      {
+        "type": "win",
+        "player": "olga carlman",
+        "stack_info": "9.22 (+0.10)",
+        "timestamp": "2025-03-03 23:30:53"
+      },
+      {
+        "type": "hand_complete",
+        "timestamp": "2025-03-03 23:30:53"
+      }
+    ],
+    "winners": [
+      {
+        "name": "olga carlman",
+        "stack_info": "9.22 (+0.10)"
+      }
+    ]
+  }
+]
